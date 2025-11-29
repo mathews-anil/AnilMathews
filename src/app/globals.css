@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@theme {
+  --breakpoint-xxs: 360px;
+  --breakpoint-xs: 480px;
+  --breakpoint-3xl: 1600px;
+  --breakpoint-4xl: 1900px;
+}
+/* text-[78px] lg:text-[120px] 2xl:text-[140px] 3xl:text-[160px] 4xl:text-[188px] lg:leading-[100px] 2xl:leading-[141px] */
+
+.main_anil_mathew_heading {
+  font-size: 188px;
+  line-height: 141px;
+}
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.font-charter {
+  font-family: var(--font-charter), serif;
+}
+.mobile_menu_bg {
+  background: url("/images/header/header_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top !important;
+}
+.vision_bg {
+  background: url("/images/home/vision_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center !important;
+}
+.main_padding_left{
+  padding-left: 152px;
+}
+
+
+
+@media screen and (max-width: 1700px) {
+  .main_anil_mathew_heading {
+    font-size: 120px;
+    line-height: 100px;
+  }
+  .main_padding_left{
+  padding-left: 50px;
+}
+}
+@media screen and (max-width: 1400px) {
+  .main_anil_mathew_heading {
+    font-size: 80px;
+    line-height: 70px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main_anil_mathew_heading {
+    font-size: 78px;
+    line-height: 65px;
+  }
+  .main_padding_left{
+  padding-left: 16px;
+}
+}
+@media screen and (min-width: 1800px) {
+ .vision_section_padding{
+  padding: 0px 295px;
+ }
+}
