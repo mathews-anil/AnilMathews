@@ -52,7 +52,12 @@
 .main_heading_letter_space{
   letter-spacing: -7px;
 }
-
+.editorial_bg{
+   background: url("/images/article/editorial.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center !important;
+}
 @media screen and (max-width: 1700px) {
   .main_anil_mathew_heading {
     font-size: 120px;
@@ -104,5 +109,8 @@
  }
  .about_main_section{
   width: 1030px;
+ }
+ .card_custom_width{
+  width: 510px;
  }
 }

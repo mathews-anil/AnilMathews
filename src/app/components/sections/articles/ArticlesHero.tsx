@@ -8,7 +8,7 @@ const ArticlesHero = () => {
         <div className='bg-[#F7F4F1]'>
             <Header />
             <div className='flex flex-col gap-[64px] lg:gap-[96px] pt-[40px] lg:pt-[92px] px-[13px] md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto'>
-                <div className='flex flex-col gap-4 lg:gap-[42px] items-center lg:items-start w-full lg:w-[856px]'>
+                <div className='flex flex-col gap-4 lg:gap-[42px] items-center lg:items-start w-full lg:w-[856px] text-center lg:text-left'>
                     <h2 className='font-charter text-[36px] lg:text-[64px] text-[#111111] leading-[36px] lg:leading-[64px]' style={{ letterSpacing: "-2px" }}>Articles & Insights</h2>
                     <p className='text-[#111111] opacity-65 lg:opacity-100 font-charter text-xl lg:text-[32px]'>I write to make sense of how things grow. Each essay is a small experiment in focus, a way to strip away noise and see what actually moves people, teams, and companies forward.</p>
                     <p className='text-[#111111] opacity-65 lg:opacity-100 font-charter text-xl lg:text-[32px]'>My writing sits at the intersection of technology, behavior, and execution. Some pieces start as questions I can’t shake; others as answers that proved themselves in the field.</p>
