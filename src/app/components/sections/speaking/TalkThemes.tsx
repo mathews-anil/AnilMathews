@@ -5,40 +5,40 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay } from 'swiper/modules'
 import 'swiper/css'
 
-const Principles = () => {
+const TalkThemes = () => {
     const items = [
         {
-            img: "/images/about/icon1.png",
-            title: "Perfection kills velocity",
-            desc: "Start before conditions feel perfect."
+            img: "/images/speaking/icon1.png",
+            title: <>Start fast and keep <br /> momentum</>,
+            desc: "How to move before conditions feel perfect and keep the pace when resources are limited."
         },
         {
-            img: "/images/about/icon2.png",
-            title: "Complexity kills focus",
-            desc: "Keep teams small and responsibilities clear."
+            img: "/images/speaking/icon2.png",
+            title: <>Pricing <br  />for traction</>,
+            desc: "How small teams find pricing models that create pull instead of resistance."
         },
         {
-            img: "/images/about/icon3.png",
-            title: "Momentum compounds when it can be seen",
-            desc: "Make progress visible."
+            img: "/images/speaking/icon3.png",
+            title: <>Focus and execution <br /> for small teams</>,
+            desc: "Why fewer moving parts build more durable companies, and how to use that as a competitive edge."
         },
         {
-            img: "/images/about/icon4.png",
-            title: "Technology matters only if people keep using it",
-            desc: "Build things that outlast the buzz."
+            img: "/images/speaking/icon4.png",
+            title: <>Lessons from public  <br  /> markets preparation</>,
+            desc: "What changes and what shouldn’t when a private company starts operating like a public one."
         }
     ]
 
     return (
-        <div className='bg-[#E8DCCB]'>
+        <div className='bg-[#111111]/5'>
             <div className='flex flex-col items-center text-center  justify-center gap-[50px]  py-[50px] lg:py-[130px] px-4 md:px-[50px] xl:px-[100px] 2xl:px-[160px] max-w-[1920px] mx-auto'>
 
-                <h2 className='font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#111111]' style={{ letterSpacing: "-2px" }}>Principles that anchor my work</h2>
+                <h2 className='font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#111111]' style={{ letterSpacing: "-2px" }}>Talk themes</h2>
 
                 {/* Desktop Grid */}
                 <div className='hidden md:flex flex-wrap justify-center items-center gap-4 lg:gap-6'>
                     {items.map((item, i) => (
-                        <div key={i} className='flex flex-col justify-center p-2 lg:p-[30px] gap- lg:gap-8 items-center text-center w-[280px] 2xl:w-[382px] bg-[#1A1A1A0D] min-h-[250px] lg:min-h-[306px] xl:min-h-[382px] rounded-xl lg:rounded-[24px] border border-[#E8DCCB26]'>
+                        <div key={i} className='flex flex-col justify-center p-2 lg:p-[30px] xl:p-[10px] 2xl:p-[20px] lg:gap-8 items-center text-center w-[280px] 2xl:w-[382px] bg-[#1A1A1A0D] min-h-[250px] lg:min-h-[306px] rounded-xl lg:rounded-[24px] border border-[#E8DCCB26]'>
                             <Image src={item.img} width={78} height={78} alt='icon' />
                             <h3 className='text-lg 2xl:text-[24px] font-inter font-semibold text-[#1A1A1A]'>{item.title}</h3>
                             <p className='text-base 2xl:text-xl text-[#1A1A1A] opacity-65 font-inter'>{item.desc}</p>
@@ -61,10 +61,10 @@ const Principles = () => {
                                 key={i}
                                 style={{ width: "250px", marginRight: "16px" }}   // 👈 FIXED WIDTH (NO BREAK)
                             >
-                                <div className='mx-auto flex flex-col justify-center p-4 gap-4 items-center text-center 
-                w-[250px] bg-[#1A1A1A0D] min-h-[250px] rounded-xl border border-[#E8DCCB26]'>
+                                <div className='mx-auto flex flex-col justify-center p-4 gap-6 items-center text-center 
+                w-[250px] bg-[#1A1A1A0D] min-h-[402px] rounded-xl border border-[#E8DCCB26]'>
 
-                                    <Image src={item.img} width={78} height={78} alt='icon' />
+                                    <Image src={item.img} width={78} height={78} alt='icon' className='mb-3' />
                                     <h3 className='text-lg font-inter font-semibold text-[#1A1A1A]'>{item.title}</h3>
                                     <p className='text-base text-[#1A1A1A] opacity-65 font-inter'>{item.desc}</p>
                                 </div>
@@ -81,4 +81,5 @@ const Principles = () => {
     )
 }
 
-export default Principles
+
+export default TalkThemes

@@ -64,6 +64,12 @@
   background-size: cover;
   background-position: center !important;
 }
+/* .speaking_bg{
+  background: url("/images/speaking/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center !important;
+} */
 
 @media screen and (max-width: 1700px) {
   .main_anil_mathew_heading {
@@ -135,5 +141,13 @@
  .ventures_prev_main{
   padding-left: 222px;
   padding-right: 222px;
+ }
+ .para_custom_bottom{
+  bottom: 50px !important;
+  font-size: 20px !important;
+  width: 935px;
+ }
+ .formate_img{
+  width: 766px !important;
  }
 }
