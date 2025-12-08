@@ -104,11 +104,11 @@ const HomeHero = () => {
 
             <div className="mt-10 flex flex-col gap-4 w-full px-[39px]">
               <button className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                Explore Ventures <MdKeyboardArrowRight className="text-lg" />
+                Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
               </button>
 
               <button className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium ">
-                See Press <MdKeyboardArrowRight className="text-lg" />
+                See Press <MdKeyboardArrowRight className="text-2xl" />
               </button>
             </div>
           </div>
@@ -122,16 +122,16 @@ const HomeHero = () => {
           height={527}
           className="w-full lg:hidden mt-[-40px]"
         />
-        <div className="w-full lg:w-[40%] 2xl:w-[1000px] flex flex-col justify-center gap-[20px] lg:gap-[100px]">
-          <div className="flex items-start gap-4 w-full lg:w-[442px]">
+        <div className="w-full lg:w-[40%] 2xl:w-[1000px] flex flex-col justify-center gap-[20px] lg:gap-[100px] 2xl:gap-[170px]">
+          <div className="flex items-start gap-4 lg:gap-6 w-full lg:w-[442px]">
             <Image
               src="/images/home/hero_icon.png"
               alt="img icon"
               width={37}
               height={37}
-              className="w-[25px] h-[25px] lg:mt-[-20px]"
+              className="w-[25px] lg:w-[37px] lg:mt-[-30px]"
             />
-            <p className="font-inter text-sm md:text-base uppercase">
+            <p className="font-inter text-sm md:text-base md:leading-[20px] uppercase">
               He founded Near Intelligence and led it from a small data
               experiment to a{" "}
               <span className="font-semibold text-[#1A3470]">
@@ -176,13 +176,13 @@ const HomeHero = () => {
             <div className="mt-[20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full">
               <Link href="/ventures">
                 <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[231px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                  Explore Ventures <MdKeyboardArrowRight className="text-lg" />
+                  Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
 
              <Link href="/press">
               <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[155px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-                See Press <MdKeyboardArrowRight className="text-lg" />
+                See Press <MdKeyboardArrowRight className="text-2xl" />
               </button>
              </Link>
             </div>
@@ -190,11 +190,11 @@ const HomeHero = () => {
         </div>
         <div className="home_hero_bg hidden lg:block w-[60%] xl:w-[814px] min-h-[900px] xl:min-h-[970px] ">
           <Image
-            src="/images/home/home_hero.png"
+            src="/images/home/home_hero.svg"
             alt="home hero"
             width={814}
             height={1038}
-            className="z-10 absolute top-[9px] right-[10px]"
+            className="z-10 absolute top-[9px] right-[10px] lg:right-[25px]"
           />
           <div className="z-30 absolute "></div>
         </div>

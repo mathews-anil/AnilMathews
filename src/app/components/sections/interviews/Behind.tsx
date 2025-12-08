@@ -74,21 +74,21 @@ const Behind = () => {
           className="absolute top-[calc(50%-32px)] left-[calc(50%-32px)] cursor-pointer"
         />
       </div>
-      <div className="mt-[20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full justify-center items-center">
+      <div className="mt-[-20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full justify-center items-center">
         <Link href="https://www.nasdaq.com/videos/near-intelligence-rings-the-nasdaq-stock-market-opening-bell" target="_blank" rel="nofollow noopener">
           <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[233px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
             Watch on Nasdaq 
-            <MdKeyboardArrowRight className="text-lg" />
+            <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
         <Link href="/press">
           <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[189px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-            See all press <MdKeyboardArrowRight className="text-lg" />
+            See all press <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
         <Link href="/about-anil-mathews">
           <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[254px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-            About Anil Mathews <MdKeyboardArrowRight className="text-lg" />
+            About Anil Mathews <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
       </div>

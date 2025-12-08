@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const ArticlesAndProfiles = () => {
   return (
-    <div className="bg-[#0D0F13] py-[50px] md:py-[100px] xl:pt-[244px] xl:pb-[200px] flex flex-col gap-[30px] lg:gap-[100px] w-full">
+    <div className="bg-[#0D0F13] py-[50px] md:py-[100px] xl:py-[188px] flex flex-col gap-[30px] lg:gap-[100px] w-full">
       <div className="flex flex-col items-center lg:items-start gap-6 lg:gap-[64px] px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto w-full">
         <h2
           className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-center lg:text-left"
@@ -17,8 +17,8 @@ const ArticlesAndProfiles = () => {
           <div className="flex flex-col lg:flex-row gap-6 w-full">
             <div className="w-full lg:w-[55%] 2xl:w-[726px] relative">
               <Link href="https://www.reuters.com/markets/deals/data-intelligence-firm-near-go-public-via-1-billion-spac-deal-2022-05-19/">
-                <button className="font-inter text-base cursor-pointer font-medium text-[#111111] lg:font-semibold py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-lg" />
+                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                  Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
               <Image
@@ -43,8 +43,8 @@ const ArticlesAndProfiles = () => {
             </div>
             <div className="w-full lg:w-[45%] 2xl:w-[580px] relative">
                <Link href="https://techcrunch.com/2022/05/19/data-intelligence-startup-near-with-1-6b-anonymized-user-ids-lists-on-nasdaq-via-spac-at-a-1b-market-cap-raises-100m/" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer font-medium text-[#111111] lg:font-semibold py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-lg" />
+                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                  Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
               <Image
@@ -71,8 +71,8 @@ const ArticlesAndProfiles = () => {
           <div className="flex flex-col lg:flex-row gap-6 w-full">
             <div className="w-full lg:w-[45%] 2xl:w-[580px] relative">
                <Link href="https://www.techinasia.com/indias-30-highest-funded-tech-startups-2014" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer font-medium text-[#111111] lg:font-semibold py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-lg" />
+                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                  Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
               <Image
@@ -97,8 +97,8 @@ const ArticlesAndProfiles = () => {
             </div>
             <div className="w-full lg:w-[55%] 2xl:w-[726px] relative">
                <Link href="https://www.businesstimes.com.sg/startups-tech/technology/spore-mobile-ad-startup-raises-record-series-b" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer font-medium text-[#111111] lg:font-semibold py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-lg" />
+                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                  Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
               <Image
@@ -126,8 +126,8 @@ const ArticlesAndProfiles = () => {
           <div className="flex flex-col lg:flex-row gap-6 w-full">
             <div className="w-full lg:w-[55%] 2xl:w-[726px] relative">
               <Link href="https://www.arabnews.com/node/1956431/media" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer font-medium text-[#111111] lg:font-semibold py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-lg" />
+                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                  Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
               <Image
@@ -152,8 +152,8 @@ const ArticlesAndProfiles = () => {
             </div>
             <div className="w-full lg:w-[45%] 2xl:w-[580px] relative">
               <Link href="https://techcrunch.com/2020/11/19/near-acquires-teemo/" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer font-medium text-[#111111] lg:font-semibold py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-lg" />
+                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                  Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
               <Image
@@ -181,8 +181,8 @@ const ArticlesAndProfiles = () => {
           <div className="flex flex-col lg:flex-row gap-6 w-full">
             <div className="w-full lg:w-[55%] 2xl:w-[726px] relative">
               <Link href="https://www.entrepreneur.com/en-in/technology/the-big-daddy-of-data/353257" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer font-medium text-[#111111] lg:font-semibold py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-lg" />
+                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                  Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
               <Image
@@ -207,8 +207,8 @@ const ArticlesAndProfiles = () => {
             </div>
             <div className="w-full lg:w-[45%] 2xl:w-[580px] relative">
               <Link href="https://yourstory.com/2020/07/data-analytics-startup-near-adtech-pivot-saas-singapore" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer font-medium text-[#111111] lg:font-semibold py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
-                  Read articles <MdKeyboardArrowRight className="text-lg" />
+                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                  Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
               <Image

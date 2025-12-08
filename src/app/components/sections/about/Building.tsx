@@ -32,7 +32,7 @@ const Building = () => {
           </p>
           <Link href="/ventures">
             <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[231px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-              Explore Ventures <MdKeyboardArrowRight className="text-lg" />
+              Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
             </button>
           </Link>
         </div>
@@ -59,13 +59,13 @@ const Building = () => {
           <div className="flex flex-col sm:flex-row gap-4 w-full">
             <Link href="/articles">
             <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[273px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-              Read my latest essays <MdKeyboardArrowRight className="text-lg" />
+              Read my latest essays <MdKeyboardArrowRight className="text-2xl" />
             </button>
             </Link>
             <Link href="https://www.thestartswitch.com/" target="_blank" rel="noopener">
             <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[305px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
               Visit TheStartSwitch.com{" "}
-              <MdKeyboardArrowRight className="text-lg" />
+              <MdKeyboardArrowRight className="text-2xl" />
             </button>
             </Link>
           </div>

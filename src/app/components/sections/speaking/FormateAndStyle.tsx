@@ -18,11 +18,11 @@ const FormateAndStyle = () => {
                 </div>
             </div>
             <div className='px-5 max-w-[1920px] mx-auto md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding mt-[-100px] z-50! relative'>
-                <div className='bg-[#E8DCCB] w-full  flex flex-col lg:flex-row gap-[20px] lg:gap-[50px] items-center text-center lg:text-left justify-between rounded-2xl lg:rounded-3xl p-[35px] lg:px-[82px] lg:py-[60px] z-50!'>
+                <div className='bg-[#E8DCCB] w-full  flex flex-col lg:flex-row gap-[20px] lg:gap-[50px] items-center text-center lg:text-left justify-between rounded-2xl lg:rounded-3xl p-[35px] lg:px-[82px] lg:py-[50px] z-50!'>
                     <div className='flex flex-col gap-[50px] w-full lg:w-[240px]'>
                         <h2 className='font-charter leading-[36px] lg:leading-[64px] text-[36px] lg:text-[45px] 2xl:text-[64px] text-[#1A3470]' style={{ letterSpacing: "-2px" }}>Booking</h2>
                         <button className="hidden lg:flex mx-auto md:mx-0 w-full md:w-[160px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px]  justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                            Book now <MdKeyboardArrowRight className="text-lg" />
+                            Book now <MdKeyboardArrowRight className="text-2xl" />
                         </button>
                     </div>
                     <div className='flex flex-col w-full lg:w-[500px] xl:w-[600px] 2xl:w-[699px] gap-[40px] items-center lg:items-start text-center lg:text-left text-base lg:text-xl font-inter text-[#1A1A1A]'>
@@ -33,7 +33,7 @@ const FormateAndStyle = () => {
                         </p>
                     </div>
                     <button className="lg:hidden mx-auto md:mx-0 w-full md:w-[160px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                            Book now <MdKeyboardArrowRight className="text-lg" />
+                            Book now <MdKeyboardArrowRight className="text-2xl" />
                         </button>
                 </div>
             </div>

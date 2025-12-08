@@ -33,7 +33,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div>
+    <div className='bg-[#F7F4F1]'>
       <ArticlesHero />
       <Essays />
       <Editorial />

@@ -38,10 +38,10 @@
   padding-left: 152px;
 }
 .home_vision_section{
-  background-image: url('/images/home/bg1.png'), url('/images/about/bg2.png');
+  background-image: url('/images/home/bg1.png'), url('/images/home/bg2.png');
    background-repeat: no-repeat, no-repeat;
   background-size: 1052px, 1052px;
-  background-position: 100% 35%,  -5% 135% !important;
+  background-position: 100% 35%,  -1% 135% !important;
 }
 .about_vision_section{
   background-image: url('/images/about/idea_bg1.png'), url('/images/about/idea_bg2.png');

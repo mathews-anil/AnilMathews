@@ -73,7 +73,7 @@ export default function Media() {
         </h2>
         <Link href="/press">
           <button className="items-center cursor-pointer w-full hidden lg:flex lg:w-[305px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
-            See all press and interviews <MdKeyboardArrowRight className="text-lg" />
+            See all press and interviews <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
       </div>
@@ -128,7 +128,7 @@ export default function Media() {
       </Swiper>
       <Link href="/press">
         <button className="cursor-pointer w-[330px] lg:hidden lg:w-[305px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
-          See all press and interviews <MdKeyboardArrowRight className="text-lg" />
+          See all press and interviews <MdKeyboardArrowRight className="text-2xl" />
         </button>
       </Link>
     </div>

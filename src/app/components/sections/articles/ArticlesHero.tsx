@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const ArticlesHero = () => {
   return (
-    <div className="bg-[#F7F4F1]">
+    <div className="bg-[#111111]/5">
       <Header />
       <div className="flex flex-col gap-[64px] lg:gap-[96px] pt-[40px] lg:pt-[92px] px-[13px] md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto">
         <div className="flex flex-col gap-4 lg:gap-[42px] items-center lg:items-start w-full lg:w-[856px] text-center lg:text-left">
@@ -27,7 +27,7 @@ const ArticlesHero = () => {
             answers that proved themselves in the field.
           </p>
         </div>
-        <div className="bg-[#E8DCCB] mb-[-100px] lg:mb-[-250px] w-full flex flex-col lg:flex-row gap-[20px] lg:gap-[50px] items-center text-center lg:text-left justify-between rounded-2xl lg:rounded-3xl pt-[43px] px-[20px] lg:pt-[50px] lg:px-[50px] mx-auto">
+        <div className="bg-[#E8DCCB] mb-[-100px] lg:mb-[-250px] w-full flex flex-col lg:flex-row gap-[20px] lg:gap-[50px] items-center text-center lg:text-left justify-between rounded-2xl lg:rounded-3xl pt-[43px] px-[20px] lg:pt-[50px] lg:px-[50px] 2xl:px-[90px] mx-auto">
           <div className="flex flex-col gap-4 lg:gap-8 w-full lg:w-[600px] xl:w-[700px] lg:mb-[43px]">
             <p className="text-sm font-inter font-medium uppercase text-[#1A3470]">
               Featured work
@@ -50,11 +50,11 @@ const ArticlesHero = () => {
                 rel="noopener"
               >
                 <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[164px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                  Read more <MdKeyboardArrowRight className="text-lg" />
+                  Read more <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
               <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[207px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-                Buy on amazon <MdKeyboardArrowRight className="text-lg" />
+                Buy on amazon <MdKeyboardArrowRight className="text-2xl" />
               </button>
               <Link
                 href="https://www.goodreads.com/author/show/57597604.Anil_Mathews"
@@ -63,7 +63,7 @@ const ArticlesHero = () => {
               >
                 <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[275px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
                   Reviews on Goodreads{" "}
-                  <MdKeyboardArrowRight className="text-lg" />
+                  <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
             </div>

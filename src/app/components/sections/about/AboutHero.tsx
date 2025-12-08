@@ -91,12 +91,12 @@ const AboutHero = () => {
 
                         <div className="mt-10 flex flex-col gap-4 w-full px-[39px]">
                             <button className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                                Explore Ventures <MdKeyboardArrowRight className="text-lg" />
+                                Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
 
                             </button>
 
                             <button className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium ">
-                                See Press <MdKeyboardArrowRight className="text-lg" />
+                                See Press <MdKeyboardArrowRight className="text-2xl" />
                             </button>
                         </div>
                     </div>
@@ -113,7 +113,7 @@ const AboutHero = () => {
                         <p className="order-1 lg:order-3 font-inter text-sm lg:text-base uppercase text-[#111111] w-full lg:w-[432px] lg:ml-[120px] 2xl:ml-[170px]" style={{ letterSpacing: "-1px" }}>
                             driven by one idea: technology should expand human potential, not replace it.
                         </p>
-                        <Image src="/images/about/icon.png" width={134} height={130} alt="about icon" className="absolute bottom-[-20px] 2xl:bottom-[-60px] right-[10%] hidden lg:block w-[50px] 2xl:w-[130px]" />
+                        <Image src="/images/about/icon.png" width={134} height={130} alt="about icon" className="absolute bottom-[-20px] 2xl:bottom-[-50px] right-[10%] 2xl:right-[15%] hidden lg:block w-[50px] 2xl:w-[130px]" />
                     </div>
                     <div className="flex flex-col gap-[25px] lg:gap-[30px] w-full lg:w-[578px] lg:ml-[10%]">
                         <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">Over the past two decades I’ve built companies that prove small, clear-thinking teams can shape global markets. I founded Near Intelligence, scaled it across Asia, Europe, and North America, and led its Nasdaq listing at a valuation near one billion dollars.</p>
@@ -121,8 +121,8 @@ const AboutHero = () => {
                             Today I lead Alphabyte Ventures, a studio that creates and invests in focused software products that give clarity, speed, and precision to ambitious teams everywhere.
                         </p>
                         <Link href="https://www.alphabyte.com/" target="_blank" rel="noopener">
-                        <button className=" backdrop-blur-[25px]  flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-medium ">
-                            Visit Alphabyte Ventures <MdKeyboardArrowRight className="text-lg" />
+                        <button className=" backdrop-blur-[25px]  flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold ">
+                            Visit Alphabyte Ventures <MdKeyboardArrowRight className="text-2xl" />
                         </button>
                         </Link>
                     </div>

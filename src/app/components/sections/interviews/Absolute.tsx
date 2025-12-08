@@ -40,20 +40,20 @@ const Absolute = () => {
                 <Image src="/images/interviews/interview.png" width={1058} height={536} alt='interview image' className='rounded-[24px]' />
                 <Image src="/images/interviews/play.png" width={64} height={64} alt='interview image' className='absolute top-[calc(50%-32px)] left-[calc(50%-32px)] cursor-pointer' />
             </div>
-            <div className="mt-[20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full justify-center items-center">
+            <div className="mt-[-20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full justify-center items-center">
                 <Link href="https://absolutereturn.podbean.com/e/231-enterprise-software-with-near-ceo-anil-mathews/" target="_blank" rel="nofollow noopener">
                 <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[313px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
-                    Listen on Absolute Return  <MdKeyboardArrowRight className="text-lg" />
+                    Listen on Absolute Return  <MdKeyboardArrowRight className="text-2xl" />
                 </button>
                 </Link>
                 <Link href="/press">
           <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[189px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-            See all press <MdKeyboardArrowRight className="text-lg" />
+            See all press <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
         <Link href="/about-anil-mathews">
           <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[254px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-            About Anil Mathews <MdKeyboardArrowRight className="text-lg" />
+            About Anil Mathews <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
             </div>

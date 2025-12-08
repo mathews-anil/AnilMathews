@@ -105,7 +105,7 @@ const Vision = () => {
           Milestones
         </h2>
         <div className="w-full flex flex-wrap lg:flex-nowrap gap-[10px] lg:gap-[27px]">
-          <div className="w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px] bg-[#FFFFFF03]">
             <p className="text-[#E8DCCB] font-inter text-sm2xlg:text-base uppercase">
               Companies founded
             </p>
@@ -113,7 +113,7 @@ const Vision = () => {
               4
             </p>
           </div>
-          <div className="w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Public listing on Nasdaq
             </p>
@@ -121,7 +121,7 @@ const Vision = () => {
               1
             </p>
           </div>
-          <div className="w-[38%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[38%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Strategic acquisitions
             </p>
@@ -137,7 +137,7 @@ const Vision = () => {
               $235M
             </p>
           </div>
-          <div className="w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Markets served
             </p>
@@ -145,7 +145,7 @@ const Vision = () => {
               40+
             </p>
           </div>
-          <div className="w-[48%] sm:w-auto px-[20px] lg:max-w-[212px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[212px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Years building technology
             </p>
@@ -157,7 +157,7 @@ const Vision = () => {
         <Link href="/about-anil-mathews" className="mx-auto">
           <button className="text-[#111111] cursor-pointer font-inter font-medium text-sm lg:text-base uppercase mx-auto lg:mt-[30px] w-full md:w-[361px] bg-[#E8DCCB] border border-[#11141826] rounded-full h-[46px] flex justify-center items-center gap-2 ">
             Learn more about Anil Mathews{" "}
-            <MdKeyboardArrowRight className="text-lg" />
+            <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
       </div>
