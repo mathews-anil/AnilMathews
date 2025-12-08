@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 
@@ -32,9 +33,11 @@ const FormateAndStyle = () => {
                         <p>All talks are customized for the audience and can include live Q&A or short working sessions.
                         </p>
                     </div>
-                    <button className="lg:hidden mx-auto md:mx-0 w-full md:w-[160px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+                   <Link href="https://www.linkedin.com/in/anilmathews" target='_blank'>
+                    <button className="cursor-pointer lg:hidden mx-auto md:mx-0 w-full md:w-[160px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                             Book now <MdKeyboardArrowRight className="text-2xl" />
                         </button>
+                   </Link>
                 </div>
             </div>
 
