@@ -102,7 +102,7 @@ const AboutHero = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col lg:flex-row justify-end px-4 md:px-12 main_padding_left gap-[25px] lg:gap-0">
+            <div className="flex flex-col lg:flex-row justify-end px-4 md:px-12 main_padding_left gap-[20px] lg:gap-0">
                 <Image src="/images/about/about_mob.png" alt="img icon" width={370} height={527} className="w-full lg:hidden mt-[-40px]" />
                 <Image src="/images/about/about.png" alt="home hero" width={814} height={1038} className=" lg:w-[650px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px] hidden lg:block" />
                 <div className="w-full lg:w-[40%] xl:w-[50%] lg:pt-[50px] about_main_section 2xl:w-auto flex flex-col gap-[20px] lg:gap-[100px] min-h-[500px] xl:min-h-[970px]">
@@ -121,7 +121,7 @@ const AboutHero = () => {
                             Today I lead Alphabyte Ventures, a studio that creates and invests in focused software products that give clarity, speed, and precision to ambitious teams everywhere.
                         </p>
                         <Link href="https://www.alphabyte.com/" target="_blank" rel="noopener">
-                        <button className=" backdrop-blur-[25px]  flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold ">
+                        <button className=" backdrop-blur-[25px] mt-[-15px] lg:mt-0 mb-[50px] lg:mb-0 flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold ">
                             Visit Alphabyte Ventures <MdKeyboardArrowRight className="text-2xl" />
                         </button>
                         </Link>

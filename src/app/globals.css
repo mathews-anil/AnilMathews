@@ -55,7 +55,7 @@
   background-size: cover;
   background-position: center !important;
 }
-.belief_bg{
+.belief_bg, .belief_bg_formate{
   background: url("/images/ventures/belief_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,6 +110,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center !important;
+}
+.belief_bg_formate{
+  background: url("/images/speaking/speaking_bg_mobile.png");
+  background-repeat: no-repeat;
+  background-size: 402px;
+  background-position: top !important;
+}
+.about_vision_section{
+  background-image: url('/images/about/idea_bg_mob.png');
+   background-repeat: no-repeat;
+  background-size: 402px;
+  background-position: 0% 0%!important;
 }
 
 }

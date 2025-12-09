@@ -16,7 +16,7 @@ const Building = () => {
         />
         <div className="flex flex-col gap-6 lg:gap-8 items-center order-1 lg:order-2 lg:items-start text-center lg:text-left w-full lg:[500px] xl:w-[566px]">
           <h2
-            className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#111111]"
+            className="font-charter text-[36px] lg:text-[64px] leading-[100%] text-[#111111]"
             style={{ letterSpacing: "-2px" }}
           >
             What I’m <br className="hidden lg:block" /> building now
@@ -30,8 +30,8 @@ const Building = () => {
             Every venture begins with a question: what would this look like if
             technology got out of the way? The answer becomes what we build.
           </p>
-          <Link href="/ventures">
-            <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[231px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+          <Link href="/ventures" className="w-full">
+            <button className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[231px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
               Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
             </button>
           </Link>
@@ -41,7 +41,7 @@ const Building = () => {
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-[96px] items-center justify-center ">
         <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full lg:[550px] xl:w-[610px]">
           <h2
-            className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#111111]"
+            className="font-charter text-[36px] mt-[10px] lg:mt-0 lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#111111]"
             style={{ letterSpacing: "-2px" }}
           >
             Writing <br className="hidden lg:block" /> and ideas
@@ -58,12 +58,12 @@ const Building = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 w-full">
             <Link href="/articles">
-            <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[273px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+            <button className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[273px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
               Read my latest essays <MdKeyboardArrowRight className="text-2xl" />
             </button>
             </Link>
             <Link href="https://www.thestartswitch.com/" target="_blank" rel="noopener">
-            <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[305px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
+            <button className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[305px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
               Visit TheStartSwitch.com{" "}
               <MdKeyboardArrowRight className="text-2xl" />
             </button>

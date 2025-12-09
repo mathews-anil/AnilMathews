@@ -16,13 +16,13 @@ const Podcast = () => {
                             <Image src="/images/press/podcast1.png" width={372} height={350} alt='podcast image' className='w-full lg:w-[191px]' />
                             <div className='flex flex-col gap-[24px] lg:gap-4 w-full lg:w-[80%] 2xl:w-[987px]'>
                                 <p className='text-sm lg:text-base font-inter uppercase text-[#111111]'>September 19, 2022 EP : 231 | 28 mins</p>
-                                <h3 className='text-xl leading-[26px] lg:text-[32px] lg:leading-[40px] font-charter text-[#111111]'>#231: Enterprise Software with Near CEO Anil Mathews</h3>
+                                <h3 className='text-xl leading-[26px] lg:text-[32px] lg:leading-[40px] font-charter mb-[-15px] lg:mb-0 text-[#111111]'>#231: Enterprise Software with Near CEO Anil Mathews</h3>
                                 <p className='text-[#111111] opacity-65 font-inter text-base lg:text-xl'>Discussion on enterprise software, Near’s data platform, and building traction with disciplined execution.</p>
                             </div>
                         </div>
                         <div className='flex w-full lg:w-[223px] flex-col lg:flex-row gap-[24px] lg:gap-[32px] items-center w-full'>
                             <div className='gap-[32px] flex items-center order-2 lg:order-1'>
-                                <CiHeart className='text-[24px]'  />
+                                <CiHeart className='text-[28px]'  />
                                 <IoArrowRedoOutline className='text-[24px]'  />
                             </div>
                             <Link href="https://accelerateshares.com/podcasts/absolute-return-podcast-231-enterprise-software-with-near-ceo-anil-mathews/" target="_blank" rel="nofollow noopener" className='order-1 lg:order-2'>
@@ -38,13 +38,13 @@ const Podcast = () => {
                             <Image src="/images/press/podcast2.png" width={372} height={350} alt='podcast image' className='w-full lg:w-[191px]' />
                             <div className='flex flex-col gap-[24px] lg:gap-4 w-full lg:w-[80%] 2xl:w-[987px]'>
                                 <p className='text-sm lg:text-base font-inter uppercase text-[#111111]'>August 03, 2022 by Kristi Marvin | 34:50 MINS</p>
-                                <h3 className='text-xl leading-[26px] lg:text-[32px] lg:leading-[40px] font-charter text-[#111111]'>Podcast: Anil Mathews, Founder & CEO of Near</h3>
+                                <h3 className='text-xl leading-[26px] lg:text-[32px] lg:leading-[40px] mb-[-15px] lg:mb-0 font-charter text-[#111111]'>Podcast: Anil Mathews, Founder & CEO of Near</h3>
                                 <p className='text-[#111111] opacity-65 font-inter text-base lg:text-xl'>Conversation with Anil Mathews on taking Near public through a SPAC, market timing, and lessons from the listing process.</p>
                             </div>
                         </div>
                         <div className='flex w-full lg:w-[223px] flex-col lg:flex-row gap-[24px] lg:gap-[32px] items-center w-full'>
                             <div className='gap-[32px] flex items-center order-2 lg:order-1'>
-                                <CiHeart className='text-[24px]' />
+                                <CiHeart className='text-[28px]' />
                                 <IoArrowRedoOutline className='text-[24px]' />
                             </div>
                            <Link className='order-1 lg:order-2' href="https://www.spacinsider.com/news/market-intel/podcast-near-inka-anil-mathews" target="_blank" rel="nofollow noopener">

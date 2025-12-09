@@ -9,14 +9,14 @@ const Essays = () => {
       <div className="max-w-[1920px] mx-auto px-[15px] lg:px-[50px] xl:px-[60px] priciple_padding flex flex-col gap-[50px] lg:gap-[100px] w-full">
         <div className="flex w-full flex-col gap-6 lg:gap-12 items-center lg:items-start text-center lg:text-left ">
           <h2
-            className="font-charter leading-[36px] lg:leading-[64px] text-[36px] lg:text-[64px] text-[#E8DCCB]"
+            className="font-charter leading-[44px] lg:leading-[64px] text-[36px] lg:text-[64px] text-[#E8DCCB]"
             style={{ letterSpacing: "-2px" }}
           >
-            Selected essays and op-eds
+            Selected essays <br className="lg:hidden" /> and op-eds
           </h2>
           <div className="flex flex-col lg:flex-row flex-wrap gap-6 lg:gap-[25px] w-full items-center lg:items-start justify-center">
             <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
-              <button className="lg:w-[264px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
+              <button className="lg:w-[264px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 Forbes Technology Council
               </button>
               <Image
@@ -44,7 +44,7 @@ const Essays = () => {
             </div>
 
             <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
-              <button className="lg:w-[264px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
+              <button className="lg:w-[264px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 Forbes Technology Council
               </button>
               <Image
@@ -73,7 +73,7 @@ const Essays = () => {
             </div>
 
             <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
-              <button className="lg:w-[264px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
+              <button className="lg:w-[264px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 Forbes Technology Council
               </button>
               <Image
@@ -111,7 +111,7 @@ const Essays = () => {
           </h2>
           <div className="flex flex-col lg:flex-row flex-wrap gap-6 lg:gap-[25px] w-full items-center lg:items-start justify-center">
             <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
-              <button className="lg:w-[152px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
+              <button className="lg:w-[152px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 LinkedIn Essay
               </button>
               <Image
@@ -139,7 +139,7 @@ const Essays = () => {
             </div>
 
             <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
-              <button className="lg:w-[152px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
+              <button className="lg:w-[152px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 LinkedIn Essay
               </button>
               <Image
@@ -167,7 +167,7 @@ const Essays = () => {
             </div>
 
             <div className="flex flex-col gap-6 lg:gap-8 items-center lg:items-start text-center lg:text-left w-full sm:w-[500px] xl:w-[400px] 2xl:w-[450px] relative card_custom_width">
-              <button className="lg:w-[152px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
+              <button className="lg:w-[152px] lg:h-[38px] uppercase font-inter text-sm cursor-pointer font-medium text-[#111111] lg:text-[#1A3470] lg:font-semibold py-[6px] absolute top-[13px] right-[13px] lg:top-[20px] lg:right-[20px] px-[18px] bg-[#E8DCCB] rounded-full">
                 LinkedIn Essay
               </button>
               <Image

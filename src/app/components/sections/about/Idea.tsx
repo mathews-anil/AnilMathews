@@ -12,7 +12,7 @@ const Idea = () => {
             </div>
 
             <div className='flex flex-col gap-6 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding items-start mx-auto w-full max-w-[1920px] mx-auto'>
-                <h2 className='font-charter text-[36px] lg:text-[64px] text-[#E8DCCB]' style={{ letterSpacing: "-2px" }}>Milestones</h2>
+                <h2 className='font-charter text-[36px] lg:text-[64px] text-[#E8DCCB] leading-[100%]' style={{ letterSpacing: "-2px" }}>Milestones</h2>
                 <div className='w-full flex flex-wrap lg:flex-nowrap gap-[10px] lg:gap-[27px]'>
                     <div className='bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]'>
                         <p className='text-[#E8DCCB] font-inter text-sm2xlg:text-base uppercase'>Companies founded</p>
@@ -26,7 +26,7 @@ const Idea = () => {
                         <p className='text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase'>Strategic acquisitions</p>
                         <p className='font-charter font-black text-[36px] 2xl:text-[64px] uppercase text-[#E8DCCB]'>2</p>
                     </div>
-                    <div className=' w-[59%] sm:w-auto px-[20px] lg:max-w-[200px] 2xl:max-w-[282px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-[150px] vision_bg rounded-[14px] lg:rounded-[24px]'>
+                    <div className=' w-[59%] sm:w-auto px-[35px] lg:px-[20px]  lg:max-w-[200px] 2xl:max-w-[282px] py-[30px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-[150px] vision_bg rounded-[14px] lg:rounded-[24px]'>
                         <p className='text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase'>Raised across equity and debt</p>
                         <p className='font-charter font-black text-[36px] 2xl:text-[64px] uppercase text-[#E8DCCB]'>$235M</p>
                     </div>

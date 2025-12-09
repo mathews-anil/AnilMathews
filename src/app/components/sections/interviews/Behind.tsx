@@ -64,7 +64,7 @@ const Behind = () => {
           width={1058}
           height={536}
           alt="interview image"
-          className="rounded-[24px]"
+          className="rounded-[14px] lg:rounded-[24px] min-h-[320px] lg:min-h-auto object-cover"
         />
         <Link
           href="https://www.nasdaq.com/videos/near-intelligence-rings-the-nasdaq-stock-market-opening-bell"
@@ -81,7 +81,7 @@ const Behind = () => {
         </Link>
       </div>
       <div className="mt-[-20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full justify-center items-center">
-        <Link
+        <Link className="w-full"
           href="https://www.nasdaq.com/videos/near-intelligence-rings-the-nasdaq-stock-market-opening-bell"
           target="_blank"
           rel="nofollow noopener"
@@ -91,12 +91,12 @@ const Behind = () => {
             <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
-        <Link href="/press">
+        <Link href="/press" className="w-full">
           <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[189px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
             See all press <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
-        <Link href="/about-anil-mathews">
+        <Link href="/about-anil-mathews" className="w-full">
           <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[254px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
             About Anil Mathews <MdKeyboardArrowRight className="text-2xl" />
           </button>

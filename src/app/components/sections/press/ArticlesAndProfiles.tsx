@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const ArticlesAndProfiles = () => {
   return (
-    <div className="bg-[#0D0F13] py-[50px] md:py-[100px] xl:py-[188px] flex flex-col gap-[30px] lg:gap-[100px] w-full">
+    <div className="bg-[#0D0F13] py-[65px] md:py-[100px] xl:py-[188px] flex flex-col gap-[30px] lg:gap-[100px] w-full">
       <div className="flex flex-col items-center lg:items-start gap-6 lg:gap-[64px] px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto w-full">
         <h2
           className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-center lg:text-left"
@@ -15,9 +15,9 @@ const ArticlesAndProfiles = () => {
         </h2>
         <div className="flex flex-col gap-6 w-full">
           <div className="flex flex-col lg:flex-row gap-6 w-full">
-            <div className="w-full lg:w-[55%] 2xl:w-[726px] relative">
+            <div className="min-h-[400px] w-full lg:w-[55%] 2xl:w-[726px] relative">
               <Link href="https://www.reuters.com/markets/deals/data-intelligence-firm-near-go-public-via-1-billion-spac-deal-2022-05-19/">
-                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
                   Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
@@ -28,7 +28,7 @@ const ArticlesAndProfiles = () => {
                 alt="vision 1 image"
                 className="w-full z-10 "
               />
-              <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 p-[13px] lg:p-[50px] absolute bottom-0 left-0 w-full">
+              <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
                   className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-left uppercase"
                   style={{ letterSpacing: "-2px" }}
@@ -41,9 +41,9 @@ const ArticlesAndProfiles = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full lg:w-[45%] 2xl:w-[580px] relative">
+            <div className="min-h-[400px] w-full lg:w-[45%] 2xl:w-[580px] relative">
                <Link href="https://techcrunch.com/2022/05/19/data-intelligence-startup-near-with-1-6b-anonymized-user-ids-lists-on-nasdaq-via-spac-at-a-1b-market-cap-raises-100m/" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
                   Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
@@ -54,7 +54,7 @@ const ArticlesAndProfiles = () => {
                 alt="vision 1 image"
                 className="w-full z-10 "
               />
-              <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 p-[13px] lg:p-[50px] absolute bottom-0 left-0 w-full">
+              <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
                   className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-left uppercase"
                   style={{ letterSpacing: "-2px" }}
@@ -69,9 +69,9 @@ const ArticlesAndProfiles = () => {
             </div>
           </div>
           <div className="flex flex-col lg:flex-row gap-6 w-full">
-            <div className="w-full lg:w-[45%] 2xl:w-[580px] relative">
+            <div className="min-h-[400px] w-full lg:w-[45%] 2xl:w-[580px] relative">
                <Link href="https://www.techinasia.com/indias-30-highest-funded-tech-startups-2014" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
                   Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
@@ -82,7 +82,7 @@ const ArticlesAndProfiles = () => {
                 alt="vision 1 image"
                 className="w-full z-10 "
               />
-              <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 p-[13px] lg:p-[50px] absolute bottom-0 left-0 w-full">
+              <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
                   className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-left uppercase"
                   style={{ letterSpacing: "-2px" }}
@@ -95,9 +95,9 @@ const ArticlesAndProfiles = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full lg:w-[55%] 2xl:w-[726px] relative">
+            <div className="min-h-[400px] w-full lg:w-[55%] 2xl:w-[726px] relative">
                <Link href="https://www.businesstimes.com.sg/startups-tech/technology/spore-mobile-ad-startup-raises-record-series-b" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
                   Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
@@ -108,7 +108,7 @@ const ArticlesAndProfiles = () => {
                 alt="vision 1 image"
                 className="w-full z-10 "
               />
-              <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 p-[13px] lg:p-[50px] absolute bottom-0 left-0 w-full">
+              <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
                   className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-left uppercase"
                   style={{ letterSpacing: "-2px" }}
@@ -124,9 +124,9 @@ const ArticlesAndProfiles = () => {
           </div>
 
           <div className="flex flex-col lg:flex-row gap-6 w-full">
-            <div className="w-full lg:w-[55%] 2xl:w-[726px] relative">
+            <div className="min-h-[400px] w-full lg:w-[55%] 2xl:w-[726px] relative">
               <Link href="https://www.arabnews.com/node/1956431/media" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
                   Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
@@ -137,7 +137,7 @@ const ArticlesAndProfiles = () => {
                 alt="vision 1 image"
                 className="w-full z-10 "
               />
-              <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 p-[13px] lg:p-[50px] absolute bottom-0 left-0 w-full">
+              <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
                   className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-left uppercase"
                   style={{ letterSpacing: "-2px" }}
@@ -150,9 +150,9 @@ const ArticlesAndProfiles = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full lg:w-[45%] 2xl:w-[580px] relative">
+            <div className="min-h-[400px] w-full lg:w-[45%] 2xl:w-[580px] relative">
               <Link href="https://techcrunch.com/2020/11/19/near-acquires-teemo/" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
                   Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
@@ -163,7 +163,7 @@ const ArticlesAndProfiles = () => {
                 alt="vision 1 image"
                 className="w-full z-10 "
               />
-              <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 p-[13px] lg:p-[50px] absolute bottom-0 left-0 w-full">
+              <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
                   className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-left uppercase"
                   style={{ letterSpacing: "-2px" }}
@@ -179,9 +179,9 @@ const ArticlesAndProfiles = () => {
           </div>
 
           <div className="flex flex-col lg:flex-row gap-6 w-full">
-            <div className="w-full lg:w-[55%] 2xl:w-[726px] relative">
+            <div className="min-h-[400px] w-full lg:w-[55%] 2xl:w-[726px] relative">
               <Link href="https://www.entrepreneur.com/en-in/technology/the-big-daddy-of-data/353257" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
                   Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
@@ -192,7 +192,7 @@ const ArticlesAndProfiles = () => {
                 alt="vision 1 image"
                 className="w-full z-10 "
               />
-              <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 p-[13px] lg:p-[50px] absolute bottom-0 left-0 w-full">
+              <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
                   className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-left uppercase"
                   style={{ letterSpacing: "-2px" }}
@@ -205,9 +205,9 @@ const ArticlesAndProfiles = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full lg:w-[45%] 2xl:w-[580px] relative">
+            <div className="min-h-[400px] w-full lg:w-[45%] 2xl:w-[580px] relative">
               <Link href="https://yourstory.com/2020/07/data-analytics-startup-near-adtech-pivot-saas-singapore" target="_blank" rel="nofollow noopener">
-                <button className="font-inter text-base cursor-pointer w-[194px] h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-2">
+                <button className="font-inter text-sm lg:text-base cursor-pointer w-[165px] lg:w-[194px] h-[36px] lg:h-[46px] uppercase font-medium text-[#111111] py-[6px] absolute top-[20px] right-[20px] lg:top-[30px] lg:right-[30px] px-[12px] lg:px-[18px] bg-[#E8DCCB] rounded-full flex justify-center items-center gap-1 lg:gap-2">
                   Read articles <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
@@ -218,7 +218,7 @@ const ArticlesAndProfiles = () => {
                 alt="vision 1 image"
                 className="w-full z-10 "
               />
-              <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-6 p-[13px] lg:p-[50px] absolute bottom-0 left-0 w-full">
+              <div className="flex flex-col items-start text-left gap-6 p-[25px] lg:p-[50px] absolute bottom-0 left-0 w-full">
                 <h2
                   className="font-charter text-[36px] lg:text-[64px] leading-[36px] lg:leading-[64px] text-[#E8DCCB] text-left uppercase"
                   style={{ letterSpacing: "-2px" }}

@@ -129,7 +129,7 @@ const Vision = () => {
               2
             </p>
           </div>
-          <div className="w-[59%] bg-[#FFFFFF03] sm:w-auto px-[35px] lg:max-w-[200px] 2xl:max-w-[282px] py-[25px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-[150px] vision_bg rounded-[14px] lg:rounded-[24px]">
+          <div className="w-[59%] bg-[#FFFFFF03] sm:w-auto px-[35px] lg:px-[20px] lg:max-w-[200px] 2xl:max-w-[282px] py-[25px] min-h-[207px] lg:min-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-[150px] vision_bg rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Raised across equity and debt
             </p>

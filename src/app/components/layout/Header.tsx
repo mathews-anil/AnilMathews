@@ -43,7 +43,7 @@ const Header = () => {
           })}
         </ul>
         <button
-          className="md:hidden"
+          className="md:hidden z-50"
           onClick={() => setOpen(!open)}
         >
           {open ? (
@@ -64,12 +64,12 @@ const Header = () => {
         </button>
       </header>
 
-      <div className={` md:hidden  fixed inset-0 z-40 flex justify-center items-start
+      <div className={` md:hidden z-40 fixed inset-0 z-40 flex justify-center items-start
   transition-all duration-300 
   ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
       >
-        <div className={`mobile_menu_bg text-white w-[calc(100%-26px)]  
+        <div className={`mobile_menu_bg z-40 text-white w-[calc(100%-26px)]  
     mt-[15px] mb-[11px] pt-[90px] pb-[25px] rounded-xl h-[calc(100vh-22px)]
     transition-all duration-300 flex flex-col justify-between
     ${open ? "translate-y-0" : "-translate-y-10"}
