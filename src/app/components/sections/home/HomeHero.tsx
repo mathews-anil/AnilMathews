@@ -70,7 +70,7 @@ const HomeHero = () => {
         </header>
 
         <div
-          className={` md:hidden fixed inset-0 z-40 flex justify-center items-start transition-all duration-300 ${
+          className={` lg:hidden fixed inset-0 z-40 flex justify-center items-start transition-all duration-300 ${
             open
               ? "opacity-100 pointer-events-auto"
               : "opacity-0 pointer-events-none"

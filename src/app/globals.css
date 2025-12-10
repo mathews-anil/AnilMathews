@@ -9,8 +9,8 @@
 
 
  .main_about_heading{
-     font-size: 130px;
-    line-height: 110px;
+     font-size: 110px;
+    line-height: 90px;
   }
 .font-inter {
   font-family: var(--font-inter), sans-serif;
@@ -43,7 +43,7 @@
 .about_vision_section{
   background-image: url('/images/about/idea_bg1.png'), url('/images/about/idea_bg2.png');
    background-repeat: no-repeat, no-repeat;
-  background-size: 462px, 674px;
+  background-size: 24%, 35%;
   background-position: 0% 5%,  100% 100% !important;
 }
 .main_heading_letter_space{
@@ -68,6 +68,7 @@
 
 
 @media screen and (max-width: 1700px) {
+  
   .main_anil_mathew_heading {
     font-size: 120px;
     line-height: 100px;
@@ -162,4 +163,8 @@
  .formate_img{
   width: 766px !important;
  }
+ .main_about_heading{
+     font-size: 130px;
+    line-height: 110px;
+  }
 }
