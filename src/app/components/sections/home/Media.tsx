@@ -31,15 +31,7 @@ const slides = [
     para: "Discussion on enterprise software and disciplined growth.",
     link: "https://accelerateshares.com/podcasts/absolute-return-podcast-231-enterprise-software-with-near-ceo-anil-mathews/",
   },
-  {
-    img: "/images/home/media3.png",
-    icon: "/images/home/media_logo3.png",
-    text: "Schwab Network",
-    width: 50,
-    height: 50,
-    para: "Live interview with Nicole Petallides on Near’s trading debut.",
-    link: "https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/",
-  },
+  
   {
     img: "/images/home/media4.png",
     icon: "/images/home/media_logo4.png",
@@ -48,6 +40,15 @@ const slides = [
     height: 50,
     para: "Short segment on Near’s public debut and data intelligence focus.",
     link: "https://www.youtube.com/watch?v=rvLBaKUF7EY",
+  },
+  {
+    img: "/images/home/media3.png",
+    icon: "/images/home/media_logo3.png",
+    text: "Schwab Network",
+    width: 50,
+    height: 50,
+    para: "Live interview with Nicole Petallides on Near’s trading debut.",
+    link: "https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/",
   },
   {
     img: "/images/home/media1.png",
@@ -68,15 +69,6 @@ const slides = [
     link: "https://accelerateshares.com/podcasts/absolute-return-podcast-231-enterprise-software-with-near-ceo-anil-mathews/",
   },
   {
-    img: "/images/home/media3.png",
-    icon: "/images/home/media_logo3.png",
-    text: "Schwab Network",
-    width: 50,
-    height: 50,
-    para: "Live interview with Nicole Petallides on Near’s trading debut.",
-    link: "https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/",
-  },
-  {
     img: "/images/home/media4.png",
     icon: "/images/home/media_logo4.png",
     text: "Nasdaq MarketSite",
@@ -85,6 +77,16 @@ const slides = [
     para: "Short segment on Near’s public debut and data intelligence focus.",
     link: "https://www.youtube.com/watch?v=rvLBaKUF7EY",
   },
+  {
+    img: "/images/home/media3.png",
+    icon: "/images/home/media_logo3.png",
+    text: "Schwab Network",
+    width: 50,
+    height: 50,
+    para: "Live interview with Nicole Petallides on Near’s trading debut.",
+    link: "https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/",
+  },
+  
   
 ];
 

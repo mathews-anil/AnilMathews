@@ -105,7 +105,7 @@ const Vision = () => {
           Milestones
         </h2>
         <div className="w-full flex flex-wrap lg:flex-nowrap gap-[10px] lg:gap-[27px]">
-          <div className="w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[376px] lg:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px] bg-[#FFFFFF03]">
+          <div className="w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[300px] 2xl:min-h-[376px] 2xl:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px] bg-[#FFFFFF03]">
             <p className="text-[#E8DCCB] font-inter text-sm2xlg:text-base uppercase">
               Companies founded
             </p>
@@ -113,7 +113,7 @@ const Vision = () => {
               4
             </p>
           </div>
-          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[376px] lg:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[300px] 2xl:min-h-[376px] 2xl:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Public listing on Nasdaq
             </p>
@@ -121,7 +121,7 @@ const Vision = () => {
               1
             </p>
           </div>
-          <div className="bg-[#FFFFFF03] w-[38%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[376px] lg:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[38%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[300px] 2xl:min-h-[376px] 2xl:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Strategic acquisitions
             </p>
@@ -129,7 +129,7 @@ const Vision = () => {
               2
             </p>
           </div>
-          <div className="w-[59%] bg-[#FFFFFF03] sm:w-auto px-[35px] lg:px-[20px] lg:max-w-[200px] 2xl:max-w-[282px] py-[25px] min-h-[207px] lg:min-h-[376px] lg:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-[150px] vision_bg rounded-[14px] lg:rounded-[24px]">
+          <div className="w-[59%] bg-[#FFFFFF03] sm:w-auto px-[35px] lg:px-[20px] lg:max-w-[200px] 2xl:max-w-[282px] py-[25px] min-h-[207px] lg:min-h-[300px] 2xl:min-h-[376px] 2xl:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-[150px] vision_bg rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Raised across equity and debt
             </p>
@@ -137,7 +137,7 @@ const Vision = () => {
               $235M
             </p>
           </div>
-          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[376px] lg:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[175px] py-[25px] min-h-[207px] lg:min-h-[300px] 2xl:min-h-[376px] 2xl:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Markets served
             </p>
@@ -145,7 +145,7 @@ const Vision = () => {
               40+
             </p>
           </div>
-          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[212px] py-[25px] min-h-[207px] lg:min-h-[376px] lg:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
+          <div className="bg-[#FFFFFF03] w-[48%] sm:w-auto px-[20px] lg:max-w-[212px] py-[25px] min-h-[207px] lg:min-h-[300px] 2xl:min-h-[376px] 2xl:max-h-[376px] flex flex-col justify-between border border-[#E8DCCB26] backdrop-blur-xl rounded-[14px] lg:rounded-[24px]">
             <p className="text-[#E8DCCB] font-inter text-sm 2xl:text-base uppercase">
               Years building technology
             </p>
