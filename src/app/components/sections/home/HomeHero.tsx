@@ -125,7 +125,7 @@ const HomeHero = () => {
           height={527}
           className="w-full lg:hidden mt-[-40px]"
         />
-        <div className="w-full lg:w-[40%] xl:w-[48%] 2xl:w-[650px] flex flex-col justify-center gap-[20px] lg:gap-[70px] xl:gap-100px] 2xl:gap-[170px]">
+        <div className="w-full lg:w-[40%] xl:w-[48%] 2xl:w-[650px] flex flex-col justify-center gap-[20px] lg:gap-[100px] xl:gap-[140px] 2xl:gap-[170px]">
           <div className="flex items-start gap-4 xl:gap-6 w-full xl:w-[442px]">
             <Image
               src="/images/home/hero_icon.png"
@@ -191,7 +191,7 @@ const HomeHero = () => {
             </div>
           </div>
         </div>
-        <div className="home_hero_bg hidden lg:block w-[60%] xl:w-[50%] 2xl:w-[700px] 3xl:w-[814px] min-h-[800px] xl:min-h-[900] 2xl:min-h-[970px] ">
+        <div className="home_hero_bg hidden lg:block w-[60%] xl:w-[50%] 2xl:w-[700px] 3xl:w-[814px] min-h-[650px] xl:min-h-[750] [@media(min-width:1370px)]:min-h-[850px] 2xl:min-h-[970px]! ">
           <Image
             src="/images/home/home_hero.svg"
             alt="home hero"
