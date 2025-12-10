@@ -75,9 +75,9 @@ const Header = () => {
     ${open ? "translate-y-0" : "-translate-y-10"}
     `}>
           <div className="flex flex-col gap-4 md:gap-8 px-[59px]">
-            <p className="text-sm sm:text-base font-inter text-[#E8DCCB] uppercase">
+            {/* <p className="text-sm sm:text-base font-inter text-[#E8DCCB] uppercase">
               Main Menu
-            </p>
+            </p> */}
 
             <ul className="flex flex-col gap-4 md:gap-8 text-[25px] md:text-[36px] font-charter text-[#E8DCCB]">
               <li>

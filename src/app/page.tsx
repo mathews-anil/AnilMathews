@@ -77,7 +77,7 @@ const page = () => {
         <StartSwitch />
         <Media />
         <Footer />
-        <div className='flex-col hidden lg:flex gap-4 fixed bottom-[20px] right-[50px] z-50'>
+        <div className='flex-col flex gap-4 fixed bottom-[20px] right-[50px] z-20'>
           {/* <Link href="https://x.com/anilmatt" className='w-[48px] h-[48px] rounded-full border border-[#88888840]  bg-[#111418]/1 hover:bg-white/10 flex justify-center items-center'><FaXTwitter className='text-[20px] text-[#E8DCCB] ' /></Link> */}
           <Link href="https://www.linkedin.com/in/anilmathews" className='w-[48px] h-[48px] rounded-full border border-[#88888840]  bg-[#111418]/1 hover:bg-white/10 flex justify-center items-center'><FaLinkedinIn className='text-[24px] text-[#E8DCCB] ' /></Link>
         </div>

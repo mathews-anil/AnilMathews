@@ -69,9 +69,9 @@ const AboutHero = () => {
                 <div className={` lg:hidden  fixed inset-0 z-40 flex justify-center items-start transition-all duration-300 ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
                     <div className={`mobile_menu_bg text-white w-[calc(100%-26px)] mt-[15px] mb-[11px] pt-[90px] pb-[25px] rounded-xl h-[calc(100vh-22px)] transition-all duration-300 flex flex-col justify-between ${open ? "translate-y-0" : "-translate-y-10"}`}>
                         <div className="flex flex-col gap-4 md:gap-8 px-[59px]">
-                            <p className="text-sm sm:text-base font-inter text-[#E8DCCB] uppercase">
+                            {/* <p className="text-sm sm:text-base font-inter text-[#E8DCCB] uppercase">
                                 Main Menu
-                            </p>
+                            </p> */}
 
                             <ul className="flex flex-col gap-4 md:gap-8 text-[25px] md:text-[36px] font-charter text-[#E8DCCB]">
                                 <li>

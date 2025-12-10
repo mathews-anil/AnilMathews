@@ -82,9 +82,9 @@ const HomeHero = () => {
             }`}
           >
             <div className="flex flex-col gap-4 lg:gap-8 px-[59px]">
-              <p className="text-sm sm:text-base font-inter text-[#E8DCCB] uppercase">
+              {/* <p className="text-sm sm:text-base font-inter text-[#E8DCCB] uppercase">
                 Main Menu
-              </p>
+              </p> */}
 
               <ul className="flex flex-col gap-4 md:gap-8 text-[25px] 2xl:text-[36px] font-charter text-[#E8DCCB]">
                 <li>
