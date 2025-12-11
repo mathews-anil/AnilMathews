@@ -10,8 +10,9 @@ const HomeHero = () => {
   const navItems = [
     { name: "About", path: "/about-anil-mathews" },
     { name: "Press", path: "/press" },
-    { name: "Speaking", path: "/speaking" },
     { name: "Ventures", path: "/ventures" },
+        { name: "Articles", path: "/articles" },
+
   ];
   return (
     <div className="max-w-[1920px] mx-auto relative">
@@ -23,10 +24,10 @@ const HomeHero = () => {
               width={152}
               height={26}
               alt=""
-              className="w-[122px] md:w-[152px] "
+              className="w-[122px] 2xl:w-[152px] "
             />
           </Link>
-          <ul className="hidden lg:flex gap-4 2xl:gap-8 uppercase font-inter font-medium text-xs xl:text-sm text-[#111111]">
+          <ul className="hidden lg:flex gap-4 lg:gap-3 [@media(min-width:1400px)]:gap-6 2xl:gap-8! uppercase font-inter font-medium text-xs xl:text-sm text-[#111111]">
             {navItems.map((item) => {
               const isActive = pathname === item.path;
 
@@ -125,7 +126,7 @@ const HomeHero = () => {
           height={527}
           className="w-full lg:hidden mt-[-40px]"
         />
-        <div className="w-full lg:w-[40%] xl:w-[48%] 2xl:w-[650px] flex flex-col justify-center gap-[20px] lg:gap-[100px] xl:gap-[140px] 2xl:gap-[170px]">
+        <div className="w-full lg:w-[40%] xl:w-[48%] 2xl:w-[650px] flex flex-col justify-center gap-[30px] lg:gap-[100px] xl:gap-[140px] 2xl:gap-[170px]">
           <div className="flex items-start gap-4 xl:gap-6 w-full xl:w-[442px]">
             <Image
               src="/images/home/hero_icon.png"
@@ -155,7 +156,7 @@ const HomeHero = () => {
                 >
                   ANIL
                 </h1>
-                <p className="font-inter text-sm 2xl:text-base text-[#111111] uppercase mt-2">
+                <p className="font-inter text-sm lg:text-[10px] xl:text-sm 2xl:text-base text-[#111111] uppercase mt-2 2xl:mt-1">
                   I build where
                   <br /> technology amplifies
                   <br /> human possibility.
@@ -176,7 +177,7 @@ const HomeHero = () => {
               Alphabyte Ventures, I’m creating products that make progress
               faster, decisions clearer, and teams more effective.
             </p>
-            <div className="mt-[20px] flex flex-col sm:flex-row flex-wrap gap-4 w-full lg:mx-0">
+            <div className="mt-[25px] flex flex-col sm:flex-row flex-wrap gap-4 w-full lg:mx-0">
               <Link href="/ventures">
                 <button className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[231px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                   Explore Ventures <MdKeyboardArrowRight className="text-2xl" />

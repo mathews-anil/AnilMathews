@@ -92,15 +92,15 @@ const slides = [
 
 export default function Media() {
   return (
-    <div className="py-[60px] lg:py-[100px] 2xl:py-[150px] gap-6 lg:gap-9 flex flex-col items-center max-w-[1920px] mx-auto">
+    <div className="py-[60px] lg:py-[100px] xl:py-[150px] 2xl:py-[150px] gap-6 lg:gap-9 flex flex-col items-center max-w-[1920px] mx-auto">
       {/* Heading */}
       <div className="flex gap-12 items-center mx-auto ">
         <h2 className=" font-charter text-[36px] lg:text-[64px] text-[#111111] leading-[36px] lg:leading-[64px] -tracking-[2px]">
           In the media
         </h2>
         <Link href="/press" className="hidden lg:flex">
-          <button className="items-center cursor-pointer w-full hidden lg:flex lg:w-[335px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
-            See all press and interviews{" "}
+          <button className="items-center cursor-pointer w-full hidden lg:flex lg:w-[250px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
+            SEE ALL INTERVIEWS 
             <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
@@ -140,7 +140,7 @@ export default function Media() {
                 width={623}
                 height={680}
                 alt="media"
-                className="w-full h-full rounded-[14px] object-cover object-center z-10 transition-all duration-500 group-hover:saturate-0"
+                className="w-full h-full rounded-[14px] object-cover object-center z-10 transition-all duration-500 saturate-0 group-hover:saturate-100"
               />
 
               <div className="flex flex-col absolute bottom-0 z-20 p-5 lg:p-10">
@@ -163,8 +163,8 @@ export default function Media() {
         ))}
       </Swiper>
       <Link href="/press" className="lg:hidden">
-        <button className="cursor-pointer w-[330px] lg:hidden lg:w-[305px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
-          See all press and interviews{" "}
+        <button className="cursor-pointer w-[250px] lg:hidden lg:w-[305px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
+         SEE ALL INTERVIEWS{" "}
           <MdKeyboardArrowRight className="text-2xl" />
         </button>
       </Link>

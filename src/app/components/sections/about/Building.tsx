@@ -5,7 +5,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Building = () => {
   return (
-    <div className="flex flex-col items-center gap-[50px] lg:gap-[160px] py-[60px] lg:py-[150px] px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto">
+    <div className="flex flex-col items-center gap-[50px] lg:gap-[100px] py-[60px] lg:py-[150px] px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-[96px] items-center justify-center ">
         <Image
           src="/images/about/building1.png"

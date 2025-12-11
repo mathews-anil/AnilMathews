@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from 'react-icons/md'
 
 const Idea = () => {
     return (
-        <div className='bg-[#0D0F13] 2xl:mt-[100px] py-[50px] md:py-[100px] xl:py-[174px] flex flex-col gap-[30px] lg:gap-[100px] about_vision_section'>
+        <div className='bg-[#0D0F13] 2xl:mt-[100px] py-[50px] md:py-[100px] xl:py-[150px] 2xl:py-[174px] flex flex-col gap-[30px] lg:gap-[100px] about_vision_section'>
             <div className='flex flex-col items-center text-center gap-6 lg:gap-8 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto 2xl:w-[90%]'>
                     <h2 className='font-charter font-normal text-[36px] lg:text-[64px] text-[#E8DCCB]' style={{ letterSpacing: "-2px" }}>From idea to impact</h2>
                     <p className='text-[#F7F4F1] opacity-65 font-inter text-base lg:text-xl'>My journey started in the early 2000s, when mobile data was chaos and the term “real-world intelligence” didn’t yet mean anything. What began as an experiment to understand human movement evolved into Near Intelligence, one of the most recognized data companies of its time.</p>

@@ -6,7 +6,7 @@ import { MdKeyboardArrowRight } from 'react-icons/md'
 const StartSwitch = () => {
     return (
         <div className='bg-[#E8DCCB] '>
-            <div className='flex flex-col xl:flex-row gap-6 lg:gap-[80px] px-4 md:px-[50px] xl:px-[100px] xl:pr-0! 2xl:px-[130px] pt-[60px] lg:pt-[110px] 2xl:pt-[160px] items-center vision_section_padding max-w-[1920px] mx-auto'>
+            <div className='flex flex-col xl:flex-row gap-6 lg:gap-[80px] px-4 md:px-[50px] xl:px-[100px] xl:pr-0! 2xl:px-[130px] pt-[60px] md:pt-[100px] xl:pt-[150px] 2xl:pt-[220px] items-center vision_section_padding max-w-[1920px] mx-auto'>
                 <div className='flex flex-col gap-6 lg:gap-10 lg:mb-[70px] 2xl:gap-16 w-full xl:w-[600px] 2xl:w-[713px] items-center lg:items-start text-center lg:text-left'>
                     <div className='flex flex-col gap-4 lg:gap-6 w-full 2xl:w-[541px]'>
                         <h2 className='font-charter text-[36px] lg:text-[64px] text-[#111111] leading-[36px] lg:leading-[64px]' style={{ letterSpacing: "-2px" }}>Writing and thought leadership</h2>
