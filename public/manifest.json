@@ -1,6 +1,6 @@
 {
-  "name": "Your App Name",
-  "short_name": "App",
+  "name": "Anil Mathews",
+  "short_name": "AnilMathews",
   "icons": [
     {
       "src": "/web-app-manifest-192x192-new.png",
@@ -8,8 +8,8 @@
       "type": "image/png"
     },
     {
-      "src": "/web-app-manifest-512x512-new.png",
-      "sizes": "512x512",
+      "src": "/web-app-manifest-375x375-new.png",
+      "sizes": "375x375",
       "type": "image/png"
     }
   ],
