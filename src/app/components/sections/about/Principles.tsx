@@ -38,10 +38,10 @@ const Principles = () => {
                 {/* Desktop Grid */}
                 <div className='hidden md:flex flex-wrap justify-center items-center gap-4 lg:gap-6'>
                     {items.map((item, i) => (
-                        <div key={i} className='flex flex-col justify-center p-2 lg:p-[30px] gap- lg:gap-8 items-center text-center w-[280px] xl:w-[23%] bg-[#1A1A1A0D] min-h-[250px] lg:min-h-[306px] rounded-xl lg:rounded-[24px] border border-[#E8DCCB26]'>
-                            <Image src={item.img} width={78} height={78} alt='icon' />
-                            <h3 className='text-lg 2xl:text-[24px] font-inter font-semibold text-[#1A1A1A]'>{item.title}</h3>
-                            <p className='text-base 2xl:text-xl text-[#1A1A1A] opacity-65 font-inter'>{item.desc}</p>
+                        <div key={i} className='flex flex-col justify-center p-2 lg:p-[30px] lg:gap-4 items-center text-center w-[280px] xl:w-[23%] bg-[#1A1A1A0D] min-h-[250px] 2xl:min-h-[306px] rounded-xl lg:rounded-[24px] border border-[#E8DCCB26]'>
+                            <Image src={item.img} width={78} height={78} alt='icon' className='w-[50px] 2xl:w-[78px] mb-2' />
+                            <h3 className='text-lg lg:text-base 2xl:text-[24px] font-inter font-semibold text-[#1A1A1A]'>{item.title}</h3>
+                            <p className='text-base lg:text-[12px] 2xl:text-xl text-[#1A1A1A] opacity-65 font-inter'>{item.desc}</p>
                         </div>
                     ))}
                 </div>

@@ -41,8 +41,9 @@ const Bloomberg = () => {
               width={31}
               height={30}
               alt="interview image"
+               className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               Rationale for choosing a SPAC structure in uncertain markets.
             </p>
           </div>
@@ -52,8 +53,9 @@ const Bloomberg = () => {
               width={31}
               height={30}
               alt="interview image"
+               className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               Translating the listing into operating discipline and execution.
             </p>
           </div>
@@ -63,8 +65,9 @@ const Bloomberg = () => {
               width={31}
               height={30}
               alt="interview image"
+               className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               High-level context on Near’s evolution leading up to the listing.
             </p>
           </div>

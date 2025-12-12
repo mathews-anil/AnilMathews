@@ -16,7 +16,7 @@ const Behind = () => {
         <div className="flex gap-2 lg:gap-6 items-center text-[#1A3470] font-inter text-base lg:text-xl ">
           <MdAccessTime />
           <span>
-            <span className="mr-2">March 24, 2023 </span> 00:58 Mins
+            <span className="mr-2">March 24, 2023 </span> 16:59 Mins
           </span>
         </div>
         <p className="text-[#111111] opacity-65 font-inter text-base lg:text-xl">
@@ -38,8 +38,9 @@ const Behind = () => {
               width={31}
               height={30}
               alt="interview image"
+              className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               Setting: Nasdaq MarketSite, Times Square, as part of the Behind
               the Bell interview series.
             </p>
@@ -50,8 +51,9 @@ const Behind = () => {
               width={31}
               height={30}
               alt="interview image"
+              className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               Moment: Bell-day context following the SPAC combination and the
               NIR trading start.
             </p>

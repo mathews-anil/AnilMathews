@@ -53,9 +53,11 @@ const ArticlesHero = () => {
                   Read more <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
-              <button className="cursor-pointer mx-auto md:mx-0 w-full md:w-[207px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-                Buy on amazon <MdKeyboardArrowRight className="text-2xl" />
-              </button>
+              <Link href="https://www.amazon.com/dp/B0FH41DL25" target="_blank" rel="nofollow noopener">
+                        <button className="cursor-pointer mx-auto md:mx-0 w-[330px] sm:w-full lg:w-[207px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm xl:text-[13px] 2xl:text-base font-inter font-medium ">
+                            Buy on amazon <MdKeyboardArrowRight className="text-2xl" />
+                        </button>
+                        </Link>
               <Link
                 href="https://www.goodreads.com/author/show/57597604.Anil_Mathews"
                 target="_blank"

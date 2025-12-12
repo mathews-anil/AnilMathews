@@ -7,7 +7,7 @@ import Link from "next/link";
 const logos = [
   {
     img: "/images/home/partner1.png",
-    link: "https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-smathews-on-spac-deal-video",
+    link: "https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video",
   },
   {
     img: "/images/home/partner2.png",
@@ -23,7 +23,7 @@ const logos = [
   },
   {
     img: "/images/home/partner5.png",
-    link: "https://www.nasdaq.com/videos/near-intelligence-rings-the-nasdaq-stock-market-opening-bell",
+    link: "https://www.youtube.com/watch?v=rvLBaKUF7EY&feature=youtu.be",
   },
   {
     img: "/images/home/partner6.png",

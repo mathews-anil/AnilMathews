@@ -56,7 +56,7 @@ const Vision = () => {
         </h2>
         <div className="flex flex-col gap-[15px] w-full">
           <div className="flex flex-col lg:flex-row gap-3 w-full">
-            <div className="w-full lg:w-[600px] xl:w-[59%] relative ">
+            <Link href="/ventures" className="w-full lg:w-[600px] xl:w-[59%] relative ">
               <Image
                 src="/images/home/vision1.png"
                 width={780}
@@ -68,7 +68,7 @@ const Vision = () => {
                 I build tools that make work <br className="hidden lg:block" />{" "}
                 feel lighter.{" "}
               </p>
-            </div>
+            </Link>
             <Link
               href="https://yourstory.com/2020/07/data-analytics-startup-near-adtech-pivot-saas-singapore"
               target="_blank"

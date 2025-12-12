@@ -38,8 +38,9 @@ const Schwab = () => {
               width={31}
               height={30}
               alt="interview image"
+               className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               Company overview for viewers: a privacy-led data intelligence
               platform used by brands for insights on people, places and
               products.
@@ -51,8 +52,9 @@ const Schwab = () => {
               width={31}
               height={30}
               alt="interview image"
+               className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               Context and timing: Near began trading on Nasdaq as “NIR”
               following its SPAC merger; first day of trading was March 24,
               2023.

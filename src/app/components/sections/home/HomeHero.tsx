@@ -129,7 +129,7 @@ const HomeHero = () => {
           height={527}
           className="w-full lg:hidden mt-[-40px]"
         />
-        <div className="w-full lg:w-[40%] xl:w-[48%] 2xl:w-[650px] flex flex-col justify-center gap-[60px] lg:gap-[100px] xl:gap-[140px] 2xl:gap-[170px]">
+        <div className="w-full lg:w-[40%] xl:w-[48%] 2xl:w-[650px] flex flex-col justify-center gap-[50px] lg:gap-[100px] xl:gap-[140px] 2xl:gap-[170px]">
           <div className="flex items-start gap-4 xl:gap-6 w-full xl:w-[442px]">
             <Image
               src="/images/home/hero_icon.png"
@@ -159,7 +159,7 @@ const HomeHero = () => {
                 >
                   ANIL Mathews
                 </h1>
-                <p className="font-inter custom_text text-sm lg:text-[10px] xl:text-sm 2xl:text-base text-[#111111] uppercase absolute left-[40%] lg:left-[45%] lg:top-[10px] xl:left-[42%]">
+                <p className="font-inter custom_text text-xs lg:text-[10px] xl:text-sm 2xl:text-base text-[#111111] uppercase absolute left-[50%] sm:left-[40%] lg:left-[45%] lg:top-[10px] xl:left-[42%]">
                   I build where
                   <br /> technology amplifies
                   <br /> human possibility.

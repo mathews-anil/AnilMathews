@@ -38,8 +38,9 @@ const Absolute = () => {
               width={31}
               height={30}
               alt="interview image"
+              className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               Are entrepreneurs born or made.
             </p>
           </div>
@@ -49,8 +50,9 @@ const Absolute = () => {
               width={31}
               height={30}
               alt="interview image"
+              className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               What characteristics make enterprise software attractive for
               builders and operators.
             </p>
@@ -61,8 +63,9 @@ const Absolute = () => {
               width={31}
               height={30}
               alt="interview image"
+              className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               How Near’s people-, place-, and product-level datasets are used by
               customers.
             </p>
@@ -73,8 +76,9 @@ const Absolute = () => {
               width={31}
               height={30}
               alt="interview image"
+              className="w-[20px] md:w-[30px]"
             />
-            <p className="text-base lg:text-xl font-inter text-[#111111] ">
+            <p className="text-base lg:text-xl font-inter text-[#111111] w-[calc(100%-30px)]">
               The most important attribute an entrepreneur needs, according to
               Anil.
             </p>
