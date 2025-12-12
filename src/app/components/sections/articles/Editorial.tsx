@@ -23,7 +23,7 @@ const Editorial = () => {
                     </Link>
                 </div>
             </div>
-            <div className='editorial_bg w-full lg:w-[50%] 2xl:w-[653px] relative min-h-[400px] lg:min-h-[500px] rounded-[24px] saturate-0'>
+            <div className='editorial_bg w-full lg:w-[50%] 2xl:w-[653px] relative min-h-[400px] lg:min-h-[500px] rounded-[24px]'>
                 {/* <Image src="" width={653} height={500} alt='editorial image' className='rounded-[24px] w-full min-h-full object-cover z-10' /> */}
                 <div className='absolute p-[25px] xl:p-[50px] flex bottom-0 left-0 flex-col gap-4 z-50'>
                     <h3 className='text-[24px] lg:text-[32px] text-[#E8DCCB] font-charter '>Writing philosophy</h3>
