@@ -57,12 +57,14 @@ const Partners = () => {
         ></div>
           <Marquee gradient={false} speed={30}>
             {logos.map((logo, index) => (
+              <Link href={logo.link} target="_blank">
               <img
                 key={index}
                 src={logo.img}
                 alt={`Logo ${index + 1}`}
                 className=" object-contain mx-10 saturate-0"
               />
+              </Link>
             ))}
           </Marquee>
       </div>
