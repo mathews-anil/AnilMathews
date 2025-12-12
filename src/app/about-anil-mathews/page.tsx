@@ -22,7 +22,7 @@ export const metadata = {
     description:
       "Background, milestones, and operating beliefs from Anil Mathews, founder who led Near Intelligence to a Nasdaq listing and now builds focused software at Alphabyte Ventures.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
   twitter: {
@@ -31,7 +31,7 @@ export const metadata = {
     description:
       "Background, milestones, and operating beliefs from Anil Mathews, founder who led Near Intelligence to a Nasdaq listing and now builds focused software at Alphabyte Ventures.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
 };
@@ -47,7 +47,7 @@ const page = () => {
           "@type": "Person",
           "name": "Anil Mathews",
           "url": "https://www.anilmathews.com/",
-          "image": "https://www.anilmathews.com/assets/anil-mathews-portrait.png",
+          "image": "/images/anil-mathews-portrait.png",
           "jobTitle": "Entrepreneur, Author & Founder of Alphabyte Ventures",
           "worksFor": {
             "@type": "Organization",

@@ -72,7 +72,7 @@ const Bloomberg = () => {
       </div>
       <div className="relative w-full ">
         <Image
-          src="/images/interviews/interview.png"
+          src="/images/interviews/interview1.png"
           width={1058}
           height={536}
           alt="interview image"

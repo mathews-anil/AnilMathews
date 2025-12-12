@@ -19,7 +19,7 @@ export const metadata = {
     description:
       "Talks and workshops on starting fast, pricing for traction, and leading small teams that ship. Clips and booking details.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg", // Replace if you have a specific OG image for Speaking
+      "/images/og-home-1200x630.jpeg",
     ],
   },
   twitter: {
@@ -28,7 +28,7 @@ export const metadata = {
     description:
       "Talks and workshops on starting fast, pricing for traction, and leading small teams that ship. Clips and booking details.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
 };

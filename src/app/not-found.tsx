@@ -17,7 +17,7 @@ export const metadata = {
     description:
       "This page doesn’t exist. Explore other sections of the site including About, Press, and Ventures.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg", // Replace if you want a unique 404 OG
+      "/images/og-home-1200x630.jpeg",
     ],
   },
   twitter: {
@@ -26,7 +26,7 @@ export const metadata = {
     description:
       "This page doesn’t exist. Explore other sections of the site including About, Press, and Ventures.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
 };

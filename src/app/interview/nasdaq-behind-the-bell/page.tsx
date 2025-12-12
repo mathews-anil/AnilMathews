@@ -16,7 +16,7 @@ export const metadata = {
     description:
       "A short Nasdaq MarketSite segment from the Behind the Bell series recorded on Near Intelligence’s listing day, marking its debut on Nasdaq under ticker NIR.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg", 
+      "/images/og-home-1200x630.jpeg",
     ],
   },
   twitter: {
@@ -25,7 +25,7 @@ export const metadata = {
     description:
       "A short Nasdaq MarketSite segment from the Behind the Bell series recorded on Near Intelligence’s listing day, marking its debut on Nasdaq under ticker NIR.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
 };

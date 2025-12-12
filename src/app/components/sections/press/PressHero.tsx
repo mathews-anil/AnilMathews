@@ -12,7 +12,7 @@ const PressHero = () => {
             March 24, 2023, 04:02 MINS
           </p>
           <h1
-            className="text-[24px] leading-[150%] lg:text-[35px] xl:text-[55px] 2xl:text-[64px] font-charter text-[#111111] "
+            className="text-[24px] leading-[150%] lg:leading-[100%] lg:text-[35px] xl:text-[54px] 2xl:text-[64px] font-charter text-[#111111] "
             style={{ letterSpacing: "-2px" }}
           >
             Near Intelligence's <br className="md:hidden" /> Mathews On SPAC
@@ -36,7 +36,11 @@ const PressHero = () => {
             alt="interview image"
             className="rounded-[24px] object-cover h-[330px] lg:h-auto"
           />
-          <Link href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-smathews-on-spac-deal-video" target="_blank" rel="nofollow noopener">
+          <Link
+            href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-smathews-on-spac-deal-video"
+            target="_blank"
+            rel="nofollow noopener"
+          >
             <Image
               src="/images/press/play.png"
               width={64}
@@ -48,7 +52,10 @@ const PressHero = () => {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-6 mb-[50px] lg:mb-0">
-        <div className="w-full lg:w-[50%] relative">
+        <Link
+                href="https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/"
+                target="_blank"
+                rel="nofollow noopener" className="w-full lg:w-[50%] relative">
           <Image
             src="/images/press/press1.png"
             width={780}
@@ -71,20 +78,18 @@ const PressHero = () => {
             <div className="flex items-start md:items-end justify-between w-full flex-col md:flex-row gap-6 md:gap-0 ">
               <p className="text-sm lg:text-base text-[#F7F4F1] uppercase font-inter z-20 ">
                 March 23, 2023 04:38 MINS
-              </p> 
-              <Link className="min-w-[200px]"
-                href="https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/"
-                target="_blank"
-                rel="nofollow noopener"
-              >
+              </p>
+              
                 <button className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                   Watch now <MdKeyboardArrowRight className="text-2xl" />
                 </button>
-              </Link>
             </div>
           </div>
-        </div>
-        <div className="w-full lg:w-[50%] relative">
+        </Link>
+        <Link
+                href="https://www.nasdaq.com/videos/near-intelligence-rings-the-nasdaq-stock-market-opening-bell"
+                target="_blank"
+                rel="nofollow noopener" className="w-full lg:w-[50%] relative">
           <Image
             src="/images/press/press2.png"
             width={780}
@@ -108,18 +113,13 @@ const PressHero = () => {
               <p className="text-sm lg:text-base text-[#F7F4F1] uppercase font-inter z-20 ">
                 March 24, 2023 00:58 MINS
               </p>
-              <Link className="min-w-[200px]"
-                href="https://www.nasdaq.com/videos/near-intelligence-rings-the-nasdaq-stock-market-opening-bell"
-                target="_blank"
-                rel="nofollow noopener"
-              >
+             
                 <button className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                   Watch now <MdKeyboardArrowRight className="text-2xl" />
                 </button>
-              </Link>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

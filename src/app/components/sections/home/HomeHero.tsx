@@ -100,18 +100,21 @@ const HomeHero = () => {
                 <li>
                   <Link href="/ventures">Ventures</Link>
                 </li>
+                <li>
+                  <Link href="/articles">Articles</Link>
+                </li>
               </ul>
             </div>
 
-            <div className="mt-10 flex flex-col gap-4 w-full px-[39px]">
+            <div className="flex flex-col gap-4 w-full px-[39px]">
               <Link href="/ventures">
                 <button className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                   Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
-              <Link href="/press">
+              <Link href="/speaking">
                 <button className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium ">
-                  See Press <MdKeyboardArrowRight className="text-2xl" />
+                  BOOK A TALK <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
             </div>
@@ -126,7 +129,7 @@ const HomeHero = () => {
           height={527}
           className="w-full lg:hidden mt-[-40px]"
         />
-        <div className="w-full lg:w-[40%] xl:w-[48%] 2xl:w-[650px] flex flex-col justify-center gap-[30px] lg:gap-[100px] xl:gap-[140px] 2xl:gap-[170px]">
+        <div className="w-full lg:w-[40%] xl:w-[48%] 2xl:w-[650px] flex flex-col justify-center gap-[60px] lg:gap-[100px] xl:gap-[140px] 2xl:gap-[170px]">
           <div className="flex items-start gap-4 xl:gap-6 w-full xl:w-[442px]">
             <Image
               src="/images/home/hero_icon.png"
@@ -184,9 +187,9 @@ const HomeHero = () => {
                 </button>
               </Link>
 
-              <Link href="/press">
+              <Link href="/speaking">
                 <button className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[155px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
-                  See Press <MdKeyboardArrowRight className="text-2xl" />
+                  BOOK A TALK <MdKeyboardArrowRight className="text-2xl" />
                 </button>
               </Link>
             </div>

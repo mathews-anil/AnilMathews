@@ -16,7 +16,7 @@ export const metadata = {
     description:
       "Bloomberg Markets: Asia interview on March 24, 2023, where Anil Mathews explains why Near chose the SPAC route to list on Nasdaq amid volatile markets.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg", // replace if you have a specific OG for interview pages
+      "/images/og-home-1200x630.jpeg",
     ],
   },
   twitter: {
@@ -25,7 +25,7 @@ export const metadata = {
     description:
       "Bloomberg Markets: Asia interview on March 24, 2023, where Anil Mathews explains why Near chose the SPAC route to list on Nasdaq amid volatile markets.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
 };

@@ -16,7 +16,7 @@ export const metadata = {
     description:
       "Episode #231 of the Absolute Return Podcast (Sep 19, 2022): Anil Mathews on entrepreneurship, why enterprise software wins, and how Near’s datasets are used. Hosted by Julian Klymochko and Michael Kesslering.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg", 
+      "/images/og-home-1200x630.jpeg",
     ],
   },
   twitter: {
@@ -25,7 +25,7 @@ export const metadata = {
     description:
       "Episode #231 of the Absolute Return Podcast (Sep 19, 2022): Anil Mathews on entrepreneurship, why enterprise software wins, and how Near’s datasets are used. Hosted by Julian Klymochko and Michael Kesslering.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
 };

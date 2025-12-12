@@ -7,16 +7,23 @@ const Vision = () => {
   return (
     <div className="bg-[#0D0F13] py-[35px] md:py-[100px] xl:py-[150px] 2xl:pt-[244px] 2xl:pb-[200px] flex flex-col gap-[50px] lg:gap-[100px] home_vision_section">
       <div className="flex flex-col gap-4 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding max-w-[1920px] mx-auto">
-        <div className="flex flex-col lg:flex-row gap-6 lg:gap-24 justify-between items-center">
-          <Link href="https://techcrunch.com/2022/05/19/data-intelligence-startup-near-with-1-6b-anonymized-user-ids-lists-on-nasdaq-via-spac-at-a-1b-market-cap-raises-100m/" target="_blank" rel="noopener">
-          <Image
-            src="/images/home/vision.png"
-            width={712}
-            height={580}
-            alt="vision image"
-            className="w-full lg:w-[412px] xl:w-[620] 2xl:w-[712px] order-2 lg:order-1"
-          />
+        <div className="flex flex-col lg:flex-row gap-6 lg:gap-24 justify-between items-left mt-[60px] lg:mt-0">
+          <Link className="order-2 lg:order-1"
+            href="https://techcrunch.com/2022/05/19/data-intelligence-startup-near-with-1-6b-anonymized-user-ids-lists-on-nasdaq-via-spac-at-a-1b-market-cap-raises-100m/"
+            target="_blank"
+            rel="noopener"
+          >
+            <Image
+              src="/images/home/vision.png"
+              width={712}
+              height={580}
+              alt="vision image"
+              className="w-full lg:w-[412px] xl:w-[620] 2xl:w-[712px] "
+            />
           </Link>
+          <p className="text-[#F7F4F1] font-inter text-sm lg:text-base uppercase lg:hidden text-left order-3">
+            Nasdaq Listing Day, Times Square
+          </p>
           <div className="flex flex-col gap-6 text-center lg:text-left items-center lg:items-start w-full lg:w-[470px] order-1 lg:order-2">
             <h2
               className="font-charter text-[36px] lg:text-[64px] text-[#E8DCCB]"
@@ -36,7 +43,7 @@ const Vision = () => {
             </p>
           </div>
         </div>
-        <p className="text-[#F7F4F1] font-inter text-sm lg:text-base uppercase">
+        <p className="text-[#F7F4F1] font-inter text-sm lg:text-base uppercase hidden lg:block">
           Nasdaq Listing Day, Times Square
         </p>
       </div>
@@ -62,7 +69,12 @@ const Vision = () => {
                 feel lighter.{" "}
               </p>
             </div>
-            <Link href="https://yourstory.com/2020/07/data-analytics-startup-near-adtech-pivot-saas-singapore"  target="_blank" rel="noopener" className="w-full lg:w-[400px] xl:w-[39.8%] relative">
+            <Link
+              href="https://yourstory.com/2020/07/data-analytics-startup-near-adtech-pivot-saas-singapore"
+              target="_blank"
+              rel="noopener"
+              className="w-full lg:w-[400px] xl:w-[39.8%] relative"
+            >
               <Image
                 src="/images/home/vision2.png"
                 width={524}
@@ -76,7 +88,12 @@ const Vision = () => {
               </p>
             </Link>
           </div>
-          <Link href="https://techcrunch.com/2019/07/16/near-raises-100m-for-an-ai-that-merges-online-and-offline-behavior-to-build-consumer-profiles/"  target="_blank" rel="noopener" className="w-full relative">
+          <Link
+            href="https://techcrunch.com/2019/07/16/near-raises-100m-for-an-ai-that-merges-online-and-offline-behavior-to-build-consumer-profiles/"
+            target="_blank"
+            rel="noopener"
+            className="w-full relative"
+          >
             <Image
               src="/images/home/vision3.png"
               width={780}

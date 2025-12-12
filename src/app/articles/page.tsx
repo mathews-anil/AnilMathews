@@ -17,7 +17,7 @@ export const metadata = {
     description:
       "Selected essays and op-eds by Anil Mathews on retail media, building across regions, and using data to drive real business outcomes, with links to Forbes Technology Council, Times of India, LinkedIn, and more.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg", // Replace if articles has its own OG image
+      "/images/og-home-1200x630.jpeg",
     ],
   },
   twitter: {
@@ -26,7 +26,7 @@ export const metadata = {
     description:
       "Selected essays and op-eds by Anil Mathews on retail media, building across regions, and using data to drive real business outcomes, with links to Forbes Technology Council, Times of India, LinkedIn, and more.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
 };

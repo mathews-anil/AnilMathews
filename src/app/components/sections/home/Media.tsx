@@ -20,7 +20,7 @@ const slides = [
     width: 152,
     height: 50,
     para: "Segment on choosing the SPAC route and taking Near public.",
-    link: "https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video",
+    link: "/interview/bloomberg-spac",
   },
   {
     img: "/images/home/media2.png",
@@ -29,7 +29,7 @@ const slides = [
     width: 114,
     height: 50,
     para: "Discussion on enterprise software and disciplined growth.",
-    link: "https://accelerateshares.com/podcasts/absolute-return-podcast-231-enterprise-software-with-near-ceo-anil-mathews/",
+    link: "/interview/absolute-return-231",
   },
   
   {
@@ -39,7 +39,7 @@ const slides = [
     width: 152,
     height: 50,
     para: "Short segment on Near’s public debut and data intelligence focus.",
-    link: "https://www.youtube.com/watch?v=rvLBaKUF7EY",
+    link: "/interview/nasdaq-behind-the-bell",
   },
   {
     img: "/images/home/media3.png",
@@ -48,7 +48,7 @@ const slides = [
     width: 50,
     height: 50,
     para: "Live interview with Nicole Petallides on Near’s trading debut.",
-    link: "https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/",
+    link: "/interview/schwab-trading-debut",
   },
   {
     img: "/images/home/media1.png",
@@ -57,7 +57,7 @@ const slides = [
     width: 152,
     height: 50,
     para: "Segment on choosing the SPAC route and taking Near public.",
-    link: "https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video",
+    link: "/interview/bloomberg-spac",
   },
   {
     img: "/images/home/media2.png",
@@ -66,8 +66,9 @@ const slides = [
     width: 114,
     height: 50,
     para: "Discussion on enterprise software and disciplined growth.",
-    link: "https://accelerateshares.com/podcasts/absolute-return-podcast-231-enterprise-software-with-near-ceo-anil-mathews/",
+    link: "/interview/absolute-return-231",
   },
+  
   {
     img: "/images/home/media4.png",
     icon: "/images/home/media_logo4.png",
@@ -75,7 +76,7 @@ const slides = [
     width: 152,
     height: 50,
     para: "Short segment on Near’s public debut and data intelligence focus.",
-    link: "https://www.youtube.com/watch?v=rvLBaKUF7EY",
+    link: "/interview/nasdaq-behind-the-bell",
   },
   {
     img: "/images/home/media3.png",
@@ -84,7 +85,7 @@ const slides = [
     width: 50,
     height: 50,
     para: "Live interview with Nicole Petallides on Near’s trading debut.",
-    link: "https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/",
+    link: "/interview/schwab-trading-debut",
   },
   
   
@@ -99,8 +100,8 @@ export default function Media() {
           In the media
         </h2>
         <Link href="/press" className="hidden lg:flex">
-          <button className="items-center cursor-pointer w-full hidden lg:flex lg:w-[250px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
-            SEE ALL INTERVIEWS 
+          <button className="items-center cursor-pointer w-full hidden lg:flex lg:w-[330px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
+            SEE ALL Press and INTERVIEWS 
             <MdKeyboardArrowRight className="text-2xl" />
           </button>
         </Link>
@@ -140,7 +141,7 @@ export default function Media() {
                 width={623}
                 height={680}
                 alt="media"
-                className="w-full h-full rounded-[14px] object-cover object-center z-10 transition-all duration-500 saturate-0 group-hover:saturate-100"
+                className="w-full h-full rounded-[14px] object-cover object-center z-10 transition-all duration-500  group-hover:saturate-0"
               />
 
               <div className="flex flex-col absolute bottom-0 z-20 p-5 lg:p-10">
@@ -163,8 +164,8 @@ export default function Media() {
         ))}
       </Swiper>
       <Link href="/press" className="lg:hidden">
-        <button className="cursor-pointer w-[250px] lg:hidden lg:w-[305px] bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
-         SEE ALL INTERVIEWS{" "}
+        <button className="cursor-pointer w-[330px] lg:hidden  bg-[#E8DCCB] text-[#1A3470] border border-[#E8DCCB26] h-[46px] rounded-full flex items-center justify-center gap-1 uppercase text-sm lg:text-base font-inter">
+         SEE ALL Press and INTERVIEWS 
           <MdKeyboardArrowRight className="text-2xl" />
         </button>
       </Link>

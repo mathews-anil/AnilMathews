@@ -40,12 +40,12 @@ const FormateAndStyle = () => {
         <div className="bg-[#E8DCCB] w-full flex flex-col lg:flex-row gap-[20px] lg:gap-[50px] items-center text-center lg:text-left justify-between rounded-2xl lg:rounded-3xl p-[35px] lg:px-[82px] lg:py-[50px] z-50!">
           <div className="flex flex-col gap-[50px] w-full lg:w-[240px]">
             <h2
-              className="font-charter leading-[36px] lg:leading-[64px] text-[36px] lg:text-[45px] 2xl:text-[64px] text-[#1A3470]"
+              className="font-charter leading-[36px] lg:leading-[64px] mb-6 lg:mb-0 text-[36px] lg:text-[45px] 2xl:text-[64px] text-[#1A3470]"
               style={{ letterSpacing: "-2px" }}
             >
               Booking
             </h2>
-            <Link
+            <Link className="hidden lg:flex"
               href="https://www.linkedin.com/in/anilmathews"
               target="_blank"
             >

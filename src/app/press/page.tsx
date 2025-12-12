@@ -20,7 +20,7 @@ export const metadata = {
     description:
       "Television, podcasts, and articles including Bloomberg TV, Schwab Network, Absolute Return Podcast, TechCrunch, and Forbes Technology Council.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg", // replace if you have a specific OG image for Press
+      "/images/og-home-1200x630.jpeg",
     ],
   },
   twitter: {
@@ -29,7 +29,7 @@ export const metadata = {
     description:
       "Television, podcasts, and articles including Bloomberg TV, Schwab Network, Absolute Return Podcast, TechCrunch, and Forbes Technology Council.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
 };

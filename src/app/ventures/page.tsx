@@ -23,7 +23,7 @@ export const metadata = {
     description:
       "Current studio work at Alphabyte Ventures and previous roles including founding Near Intelligence with a public listing.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
   twitter: {
@@ -32,7 +32,7 @@ export const metadata = {
     description:
       "Current studio work at Alphabyte Ventures and previous roles including founding Near Intelligence with a public listing.",
     images: [
-      "https://www.anilmathews.com/assets/og/og-home-1200x630.jpg",
+      "/images/og-home-1200x630.jpeg",
     ],
   },
 };
