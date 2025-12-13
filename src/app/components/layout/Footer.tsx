@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" pb-4 lg:pb-7">
+    <div className="pb-4 lg:pb-7">
       <Image
         src="/images/home/footer.png"
         width={1913}
@@ -12,13 +12,14 @@ const Footer = () => {
         alt="footer image"
         className="w-full"
       />
-      <div className="max-w-[1330px] mx-auto lg:mx-auto text-center px-3 w-[95%] min-h-[304px] bg-[#1A1A1A] rounded-[14px] lg:rounded-[24px] flex flex-col  gap-[30px] items-center justify-center mt-[-5px] lg:mt-[-40px]">
+
+      <div className="max-w-[1330px] mx-auto lg:mx-auto text-center px-3 w-[95%] min-h-[304px] bg-[#1A1A1A] rounded-[14px] lg:rounded-[24px] flex flex-col gap-[30px] items-center justify-center mt-[-5px] lg:mt-[-40px]">
         <p className="text-base lg:text-[24px] font-inter bg-[#E8DCCB]/80 bg-clip-text text-transparent mt-0 lg:mt-[40px] w-full lg:w-[428px]">
           For interviews, speaking, or <br className="lg:hidden" />
           partnerships, reach out on LinkedIn.
         </p>
 
-        <p className="text-[#F7F4F1] text-base lg:text-lg font-inter ">
+        <p className="text-[#F7F4F1] text-base lg:text-lg font-inter">
           <Link
             href="https://www.linkedin.com/in/anilmathews"
             target="_blank"
@@ -33,7 +34,7 @@ const Footer = () => {
           </Link>
           |
           <Link
-            href=" https://thestartswitch.com"
+            href="https://thestartswitch.com"
             target="_blank"
             rel="noopener"
           >
@@ -82,7 +83,10 @@ const Footer = () => {
             Alphabyte{" "}
           </Link>
         </p>
-          <p  className="mt-[50px] lg:mt-[30px] md:mt-[40px] mb-2 text-lg text-[#F7F4F1] font-degular opacity-65">© 2026 Anil Mathews</p>
+
+        <p className="mt-[50px] lg:mt-[30px] md:mt-[40px] mb-2 text-lg text-[#F7F4F1] font-degular opacity-65">
+          © {new Date().getFullYear()} Anil Mathews
+        </p>
       </div>
     </div>
   );
