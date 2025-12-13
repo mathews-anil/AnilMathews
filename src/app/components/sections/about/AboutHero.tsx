@@ -126,7 +126,7 @@ const AboutHero = () => {
       </div>
       <div className="flex flex-col lg:flex-row justify-end px-4 md:px-12 main_padding_left gap-[20px] lg:gap-0">
         <Image
-          src="/images/about/about_mob.png"
+          src="/images/about/about_mob_new.png"
           alt="Portrait of Anil Mathews, entrepreneur and author"
           width={370}
           height={527}
