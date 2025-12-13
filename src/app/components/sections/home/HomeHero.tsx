@@ -23,7 +23,7 @@ const HomeHero = () => {
               src="/images/header/logo.png"
               width={152}
               height={26}
-              alt=""
+              alt="Anil Mathews"
               className="w-[122px] 2xl:w-[152px] "
             />
           </Link>
@@ -124,7 +124,7 @@ const HomeHero = () => {
       <div className="flex flex-col lg:flex-row px-4 md:px-12 main_padding_left gap-[20px] lg:gap-0">
         <Image
           src="/images/home/home_hero_mob.png"
-          alt="img icon"
+          alt="Anil Mathews speaking at Nasdaq listing day in Times Square"
           width={370}
           height={527}
           className="w-full lg:hidden mt-[-40px]"

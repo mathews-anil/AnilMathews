@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <>
       <header className="flex px-4 md:px-12 max-w-[1920px] mx-auto py-[17px] md:py-7 justify-between items-center relative z-50">
-        <Link href="/"><Image src="/images/header/logo.png" width={152} height={26} alt="" className="w-[122px] 2xl:w-[152px] " /></Link>
+        <Link href="/"><Image src="/images/header/logo.png" width={152} height={26} alt="Anil Mathews" className="w-[122px] 2xl:w-[152px] " /></Link>
         <ul className="hidden md:flex gap-4 2xl:gap-8 uppercase font-inter font-medium text-xs xl:text-sm text-[#111111]">
           {navItems.map((item) => {
             const isActive = pathname === item.path;

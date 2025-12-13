@@ -97,9 +97,12 @@
 }
 @media screen and (max-width: 1250px) {
    .main_about_heading{
-     font-size: 65px;
-    line-height: 55px;
+     font-size: 45px;
+    line-height: 40px;
   }
+  .main_heading_letter_space{
+  letter-spacing: -1.5px;
+}
 }
 @media screen and (max-width: 1200px) {
   .main_anil_mathew_heading {

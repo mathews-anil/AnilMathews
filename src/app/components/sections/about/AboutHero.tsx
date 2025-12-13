@@ -26,7 +26,7 @@ const AboutHero = () => {
               src="/images/header/logo.png"
               width={152}
               height={26}
-              alt=""
+              alt="Anil Mathews"
               className="w-[122px] 2xl:w-[152px] "
             />
           </Link>
@@ -141,7 +141,7 @@ const AboutHero = () => {
         />
         <div className="w-full lg:w-[30%] [@media(min-width:1130px)]:w-[35%] [@media(min-width:1250px)]:w-[42%] xl:w-[45%]! [@media(min-width:1350px)]:w-[50%]! lg:pt-[50px] about_main_section [@media(min-width:1550px)]:w-[55%]! flex flex-col gap-[20px] lg:gap-[100px] min-h-[500px] xl:min-h-[920px] [@media(min-width:1400px)]:min-h-[950px] 2xl:min-h-[970px]!">
           <div className="flex flex-col items-start gap-[15px] lg:gap-[30px] relative">
-            <p className="font-inter text-base uppercase text-[#111111] lg:ml-[65px] order-2 lg:order-1 mt-7 lg:mt-0">
+            <p className="font-inter text-base uppercase text-[#111111] lg:ml-[40px] xl:ml-[65px] order-2 lg:order-1 mt-7 lg:mt-0">
               I’m AN
             </p>
             <h1 className="font-charter order-3 lg:order-2 main_about_heading uppercase text-[#111111] main_heading_letter_space">
