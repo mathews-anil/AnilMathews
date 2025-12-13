@@ -12,7 +12,7 @@ export const GET = () => {
   <url><loc>https://www.anilmathews.com/interview/bloomberg-spac</loc></url>
   <url><loc>https://www.anilmathews.com/interview/schwab-trading-debut</loc></url>
   <url><loc>https://www.anilmathews.com/interview/nasdaq-behind-the-bell</loc></url>
-  <url><loc>https://www.anilmathews.com/podcast/absolute-return-231</loc></url>
+  <url><loc>https://www.anilmathews.com/interview/absolute-return-231</loc></url>
 </urlset>`;
 
   return new NextResponse(sitemap, {
