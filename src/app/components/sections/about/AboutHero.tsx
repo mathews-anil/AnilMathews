@@ -166,7 +166,7 @@ const AboutHero = () => {
             <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
               Over the past two decades I’ve built companies that prove small,
               clear-thinking teams can shape global markets. I founded Near
-              Intelligence, scaled it across Asia, Europe, and North America,
+              Intelligence, scaled it across Asia, Australia, Europe, and North America,
               and led its Nasdaq listing at a valuation near one billion
               dollars.
             </p>
