@@ -109,12 +109,14 @@ const HomeHero = () => {
             <div className="flex flex-col gap-4 w-full px-[39px]">
 <Link
   href="/ventures"
-  className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+  className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium "
+  >
   Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
 </Link>
 <Link
   href="/speaking"
-  className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium ">
+  className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium "
+  >
   BOOK A TALK <MdKeyboardArrowRight className="text-2xl" />
 </Link>
             </div>
@@ -177,12 +179,14 @@ const HomeHero = () => {
             <div className="mt-[25px] flex flex-col sm:flex-row flex-wrap gap-4 w-full lg:mx-0"
 <Link
   href="/ventures"
-  className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[231px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+  className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[231px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium "
+  >
   Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
 </Link>
 <Link
   href="/speaking"
-  className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[155px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm font-inter font-medium ">
+  className="cursor-pointer mx-auto md:mx-0 w-[342px] sm:w-full md:w-[155px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm font-inter font-medium "
+  >
   BOOK A TALK <MdKeyboardArrowRight className="text-2xl" />
 </Link>
             </div>
