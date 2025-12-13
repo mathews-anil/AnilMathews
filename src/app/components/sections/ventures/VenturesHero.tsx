@@ -40,7 +40,7 @@ const VenturesHero = () => {
             src="/images/ventures/hero.png"
             width={991}
             height={575}
-            alt="Alphabyte Ventures"
+            alt='Alphabyte Ventures'
             className="min-h-[225px] lg:min-h-auto object-center object-cover rounded-t-[10px]"
           />
         </div>
