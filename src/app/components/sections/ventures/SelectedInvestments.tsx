@@ -9,7 +9,7 @@ const SelectedInvestments = () => {
         className="font-charter lg:mb-[24px] leading-[36px] lg:leading-[64px] text-[36px] lg:text-[45px] 2xl:text-[64px] text-[#111111]"
         style={{ letterSpacing: "-2px" }}
       >
-        Selected Investments{" "}
+        Selected investments{" "}
       </h2>
       <div className="flex flex-col lg:flex-row">
         <Image
