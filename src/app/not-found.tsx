@@ -20,7 +20,7 @@ export const metadata = {
     title: "Page Not Found | Anil Mathews",
     description:
       "This page doesn’t exist. Explore other sections of the site including About, Press, and Ventures.",
-    images: ["https://www.anilmathews.com/assets/og/og-home-1200x630.jpg"],
+    images: ["https://www.anilmathews.com/images/og/og-home-1200x630.jpg"],
   },
   twitter: {
     card: "summary_large_image",
