@@ -9,7 +9,7 @@ const PressHero = () => {
       <div className="bg-[#1A1A1A]/5 w-full flex flex-col lg:flex-row items-center justify-between text-center lg:text-left gap-4 p-[10px] lg:p-[25px] rounded-[14px] lg:rounded-[24px]">
         <div className="order-2 lg:order-1 flex flex-col gap-4 lg:gap-[20px] lg:ml-[50px] lg:my-[70px] w-full lg:w-[410px] 2xl:w-[480px]">
           <p className="text-sm lg:text-xl font-inter uppercase text-[#111111] lg:text-[#1A3470]">
-            March 24, 2023 | 4:02
+            March 24, 2023 | 4:02 min
           </p>
 
           <h1
@@ -88,7 +88,7 @@ const PressHero = () => {
 
             <div className="flex items-start md:items-end justify-between w-full flex-col md:flex-row gap-6 md:gap-0 ">
               <p className="text-sm lg:text-base text-[#F7F4F1] uppercase font-inter z-20 ">
-                March 23, 2023 | 4:38
+                March 23, 2023 | 4:38 min
               </p>
 
               <span className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
@@ -127,7 +127,7 @@ const PressHero = () => {
 
             <div className="flex items-start md:items-end justify-between w-full flex-col md:flex-row gap-6 md:gap-0 ">
               <p className="text-sm lg:text-base text-[#F7F4F1] uppercase font-inter z-20 ">
-                March 24, 2023 | 16:59
+                March 24, 2023 | 16:59 min
               </p>
 
               <span className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
