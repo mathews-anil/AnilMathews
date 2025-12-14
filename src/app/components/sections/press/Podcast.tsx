@@ -32,7 +32,7 @@ const Podcast = () => {
               />
               <div className="flex flex-col gap-[24px] lg:gap-4 w-full lg:w-[80%] 2xl:w-[987px]">
                 <p className="text-sm lg:text-base font-inter uppercase text-[#111111]">
-                  September 19, 2022 EP : 231 | 28 mins
+                  September 19, 2022 EP : 231 | 28 min
                 </p>
                 <h3 className="text-xl leading-[26px] lg:text-[32px] lg:leading-[40px] font-charter mb-[-15px] lg:mb-0 text-[#111111]">
                   #231: Enterprise Software with Near CEO Anil Mathews
@@ -71,7 +71,7 @@ const Podcast = () => {
               />
               <div className="flex flex-col gap-[24px] lg:gap-4 w-full lg:w-[80%] 2xl:w-[987px]">
                 <p className="text-sm lg:text-base font-inter uppercase text-[#111111]">
-                  August 03, 2022 by Kristi Marvin | 34:50 MINS
+                  August 03, 2022 by Kristi Marvin | 34:50 min
                 </p>
                 <h3 className="text-xl leading-[26px] lg:text-[32px] lg:leading-[40px] mb-[-15px] lg:mb-0 font-charter text-[#111111]">
                   Podcast: Anil Mathews, Founder & CEO of Near
