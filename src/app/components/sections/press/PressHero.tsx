@@ -9,7 +9,7 @@ const PressHero = () => {
       <div className="bg-[#1A1A1A]/5 w-full flex flex-col lg:flex-row items-center justify-between text-center lg:text-left gap-4 p-[10px] lg:p-[25px] rounded-[14px] lg:rounded-[24px]">
         <div className="order-2 lg:order-1 flex flex-col gap-4 lg:gap-[20px] lg:ml-[50px] lg:my-[70px] w-full lg:w-[410px] 2xl:w-[480px]">
           <p className="text-sm lg:text-xl font-inter uppercase text-[#111111] lg:text-[#1A3470]">
-            March 24, 2023, 04:02 MINS
+            March 24, 2023 | 4:02
           </p>
 
           <h1
@@ -23,7 +23,7 @@ const PressHero = () => {
           <Link
             href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video"
             target="_blank"
-            rel="nofollow noopener"
+            rel="nofollow noopener noreferrer"
             className="cursor-pointer mx-auto md:mx-0 w-full mb-[20px] lg:mb-0 md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium "
           >
             Watch now <MdKeyboardArrowRight className="text-2xl" />
@@ -34,27 +34,24 @@ const PressHero = () => {
           <Link
             href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video"
             target="_blank"
-            rel="nofollow noopener"
+            rel="nofollow noopener noreferrer"
+            className="block"
+            aria-label="Watch Bloomberg interview with Anil Mathews"
           >
             <Image
               src="/images/press/press.png"
               width={758}
               height={492}
-              alt="interview image"
+              alt="Bloomberg interview with Anil Mathews discussing Near Intelligence’s SPAC deal"
               className="rounded-[24px] object-cover h-[330px] lg:h-auto"
             />
-          </Link>
 
-          <Link
-            href="https://www.bloomberg.com/news/videos/2023-03-24/near-intelligence-s-mathews-on-spac-deal-video"
-            target="_blank"
-            rel="nofollow noopener"
-          >
             <Image
               src="/images/press/play.png"
               width={64}
               height={64}
-              alt="interview image"
+              alt=""
+              aria-hidden="true"
               className="absolute top-[calc(50%-32px)] w-[48px] lg:w-[64px] left-[calc(50%-32px)] cursor-pointer"
             />
           </Link>
@@ -65,21 +62,21 @@ const PressHero = () => {
         <Link
           href="https://www.facebook.com/schwabnetwork/videos/near-nir-ceo-anir-mathews-with-a-company-overview/239237531816869/"
           target="_blank"
-          rel="nofollow noopener"
+          rel="nofollow noopener noreferrer"
           className="w-full lg:w-[50%] relative"
         >
           <Image
             src="/images/press/press1.png"
             width={780}
             height={680}
-            alt="vision 1 image"
+            alt="Schwab Network interview with Anil Mathews previewing Near Intelligence’s Nasdaq debut"
             className="w-full z-10 hidden lg:block"
           />
           <Image
             src="/images/press/press1_mob.png"
             width={780}
             height={680}
-            alt="vision 1 image"
+            alt="Schwab Network interview with Anil Mathews previewing Near Intelligence’s Nasdaq debut"
             className="w-full z-10 lg:hidden"
           />
 
@@ -91,12 +88,12 @@ const PressHero = () => {
 
             <div className="flex items-start md:items-end justify-between w-full flex-col md:flex-row gap-6 md:gap-0 ">
               <p className="text-sm lg:text-base text-[#F7F4F1] uppercase font-inter z-20 ">
-                March 23, 2023 04:38 MINS
+                March 23, 2023 | 4:38
               </p>
 
-              <div className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+              <span className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                 Watch now <MdKeyboardArrowRight className="text-2xl" />
-              </div>
+              </span>
             </div>
           </div>
         </Link>
@@ -104,21 +101,21 @@ const PressHero = () => {
         <Link
           href="https://www.nasdaq.com/videos/near-intelligence-rings-the-nasdaq-stock-market-opening-bell"
           target="_blank"
-          rel="nofollow noopener"
+          rel="nofollow noopener noreferrer"
           className="w-full lg:w-[50%] relative"
         >
           <Image
             src="/images/press/press2.png"
             width={780}
             height={680}
-            alt="vision 1 image"
+            alt="Nasdaq opening bell display featuring Anil Mathews and the date March 23, 2023"
             className="w-full z-10 hidden lg:block"
           />
           <Image
             src="/images/press/press2_mob.png"
             width={780}
             height={680}
-            alt="vision 1 image"
+            alt="Nasdaq opening bell display featuring Anil Mathews and the date March 23, 2023"
             className="w-full z-10 lg:hidden"
           />
 
@@ -130,12 +127,12 @@ const PressHero = () => {
 
             <div className="flex items-start md:items-end justify-between w-full flex-col md:flex-row gap-6 md:gap-0 ">
               <p className="text-sm lg:text-base text-[#F7F4F1] uppercase font-inter z-20 ">
-                March 24, 2023 16:59 MINS
+                March 24, 2023 | 16:59
               </p>
 
-              <div className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
+              <span className="cursor-pointer lg:mb-[-30px] md:mx-0 w-full md:w-[173px] bg-[#1A3470] text-[#E8DCCB] h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium ">
                 Watch now <MdKeyboardArrowRight className="text-2xl" />
-              </div>
+              </span>
             </div>
           </div>
         </Link>
