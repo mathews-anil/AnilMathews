@@ -32,14 +32,13 @@ const Vision = () => {
               Vision
             </h2>
             <p className="text-[#F7F4F1] opacity-65 font-inter text-base lg:text-xl">
-              Progress begins when technology becomes invisible. At Alphabyte
-              Ventures, we use AI only where it creates real leverage,
-              simplifying workflows, accelerating research, and helping teams
-              ship faster.
+              The next phase of progress will not come from adding more technology. It will come from removing what stands between people and real execution.
             </p>
             <p className="text-[#F7F4F1] opacity-65 font-inter text-base lg:text-xl">
-              The principle is simple: keep humanity at the center and build
-              software that earns its place through use, not hype.
+              As tools become more powerful, advantage will belong to those who reduce complexity instead of multiplying it. The systems that endure will feel quiet by design because they shorten the distance between intent and outcome, turning research into insight, coordination into flow, and execution into something continuous rather than forced, with intelligence embedded by default to remove time, ambiguity, and unnecessary effort.
+            </p>
+            <p className="text-[#F7F4F1] opacity-65 font-inter text-base lg:text-xl">
+              The destination is clear: work that flows, teams that stay focused and small, and progress that compounds without demanding constant attention. That is what everything here is built toward.
             </p>
           </div>
         </div>
