@@ -112,7 +112,7 @@ const Vision = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-4 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding items-start mx-auto w-full max-w-[1920px] mx-auto">
+      <div className="flex flex-col gap-4 px-4 md:px-[50px] xl:px-[100px] 2xl:px-[130px] vision_section_padding items-center lg:items-start mx-auto w-full max-w-[1920px]">
         <h2
           className="font-charter text-[36px] lg:text-[64px] text-[#E8DCCB]"
           style={{ letterSpacing: "-2px" }}
