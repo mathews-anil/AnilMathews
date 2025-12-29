@@ -35,7 +35,7 @@ const PreviousVentures = () => {
                 </div>
                 <div className='flex flex-col gap-6 w-full lg:w-[500px] xl:w-[50%] '>
                     <div className='flex flex-col gap-[70px] p-[15px] lg:p-[45px] border border-[#E8DCCB40] rounded-[24px]'>
-                        <Image src="/images/ventures/logo1.png" width={146} height={56} alt='logo' />
+                        <Image src="/images/ventures/logo1.png" width={146} height={56} alt='Imere Technologies logo' />
                         <div className='flex flex-col gap-4'>
                             <h3 className='text-[24px] lg:text-[32px] font-charter text-[#F7F4F1]'>Imere Tech</h3>
                              <p className='text-base lg:text-xl lg:leading-[30px] font-inter text-[#F7F4F1] opacity-65'>Early leadership focused on product and operations in emerging markets. Helped teams translate market data into practical execution.
@@ -43,7 +43,7 @@ const PreviousVentures = () => {
                         </div>
                     </div>
                     <div className='flex flex-col gap-[60px] p-[15px] lg:p-[45px] border border-[#E8DCCB40] rounded-[24px]'>
-                        <Image src="/images/ventures/logo2.png" width={165} height={66} alt='logo' />
+                        <Image src="/images/ventures/logo2.png" width={165} height={66} alt='Netkode Solutions logo' />
                         <div className='flex flex-col gap-4'>
                             <h3 className='text-[24px] lg:text-[32px] font-charter text-[#F7F4F1]'>Netkode Solutions</h3>
                              <p className='text-base lg:leading-[30px] lg:text-xl font-inter text-[#F7F4F1] opacity-65'>Early-stage engineering venture focused on delivery systems and customer development. Taught the fundamentals of building, shipping, and selling fast.
