@@ -29,6 +29,19 @@ const ArticlesHero = () => {
             execution. Some pieces start as questions I can’t shake; others as
             answers that proved themselves in the field.
           </p>
+
+          <p className="text-[#111111] opacity-65 lg:opacity-100 font-charter text-xl lg:text-[32px]">
+            Anil’s long-form essays and independent writing are published at{" "}
+            <Link
+              href="https://mathews.com/writing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 decoration-[#111111]/40 hover:decoration-[#111111]/70"
+            >
+              Mathews.com
+            </Link>
+            .
+          </p>
         </div>
 
         <div className="bg-[#E8DCCB] mb-[-100px] lg:mb-[-250px] w-full flex flex-col lg:flex-row gap-[20px] lg:gap-[50px] items-center text-center lg:text-left justify-between rounded-2xl lg:rounded-3xl pt-[43px] px-[20px] lg:pt-[50px] lg:px-[50px] 2xl:px-[90px] mx-auto">
