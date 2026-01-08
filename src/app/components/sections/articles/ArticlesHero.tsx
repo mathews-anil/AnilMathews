@@ -31,12 +31,12 @@ const ArticlesHero = () => {
           </p>
 
           <p className="text-[#111111] opacity-65 lg:opacity-100 font-charter text-xl lg:text-[32px]">
-            Anil’s long-form essays and independent writing are published at{" "}
+            My long-form essays and independent writing are published at{" "}
             <Link
               href="https://mathews.com/writing"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline underline-offset-4 decoration-[#111111]/40 hover:decoration-[#111111]/70"
+              className="font-medium text-[#1A3470] underline"
             >
               Mathews.com
             </Link>
@@ -58,7 +58,7 @@ const ArticlesHero = () => {
             </h2>
 
             <p className="text-[#111111] opacity-65 font-inter text-base lg:text-xl">
-              A book about momentum — how to begin, sustain focus, and keep
+              A book about momentum, how to begin, sustain focus, and keep
               building when most people stall. It’s for founders, creators, and
               anyone fighting the gravity of hesitation.
             </p>
@@ -68,7 +68,7 @@ const ArticlesHero = () => {
                 href="https://www.thestartswitch.com"
                 target="_blank"
                 rel="noopener"
-                className="cursor-pointer mx-auto md:mx-0 w-full md:w-[164px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium "
+                className="cursor-pointer mx-auto md:mx-0 w-full md:w-[164px] bg-[#1A3470] text-[#E8DCCB] h-[50px] lg:h-[46px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium"
               >
                 Read more <MdKeyboardArrowRight className="text-2xl" />
               </Link>
@@ -77,7 +77,7 @@ const ArticlesHero = () => {
                 href="https://www.amazon.com/dp/B0FH41DL25"
                 target="_blank"
                 rel="nofollow noopener"
-                className="cursor-pointer mx-auto md:mx-0 w-[330px] sm:w-full lg:w-[207px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm xl:text-[13px] 2xl:text-base font-inter font-medium "
+                className="cursor-pointer mx-auto md:mx-0 w-[330px] sm:w-full lg:w-[207px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm xl:text-[13px] 2xl:text-base font-inter font-medium"
               >
                 Buy on Amazon <MdKeyboardArrowRight className="text-2xl" />
               </Link>
@@ -86,7 +86,7 @@ const ArticlesHero = () => {
                 href="https://www.goodreads.com/author/show/57597604.Anil_Mathews"
                 target="_blank"
                 rel="nofollow noopener"
-                className="cursor-pointer mx-auto md:mx-0 w-full md:w-[275px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm font-inter font-medium "
+                className="cursor-pointer mx-auto md:mx-0 w-full md:w-[275px] bg-[#E8DCCB03] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#111111] h-[44px] lg:h-[46px] rounded-full uppercase text-sm font-inter font-medium"
               >
                 Reviews on Goodreads{" "}
                 <MdKeyboardArrowRight className="text-2xl" />
