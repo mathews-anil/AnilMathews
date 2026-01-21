@@ -3,7 +3,7 @@ import Header from '@/app/components/layout/Header'
 import Bloomberg from '@/app/components/sections/interviews/Bloomberg'
 import React from 'react'
 export const metadata = {
-  title: "Bloomberg TV Interview | Anil Mathews",
+  title: "Bloomberg TV Interview",
   description:
     "Bloomberg Markets: Asia interview on March 24, 2023, where Anil Mathews explains why Near chose the SPAC route to list on Nasdaq amid volatile markets.",
   alternates: {
