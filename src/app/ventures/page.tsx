@@ -1,16 +1,18 @@
-import React from 'react'
-import Script from 'next/script'
-import VenturesHero from '../components/sections/ventures/VenturesHero'
-import Header from '../components/layout/Header'
-import Footer from '../components/layout/Footer'
-import VentureStudio from '../components/sections/ventures/VentureStudio'
-import PreviousVentures from '../components/sections/ventures/PreviousVentures'
-import SelectedAcquisitions from '../components/sections/ventures/SelectedAcquisitions'
-import SelectedInvestments from '../components/sections/ventures/SelectedInvestments'
-import OperatingBelief from '../components/sections/ventures/OperatingBelief'
+import React from "react";
+import Script from "next/script";
+import VenturesHero from "../components/sections/ventures/VenturesHero";
+import Header from "../components/layout/Header";
+import Footer from "../components/layout/Footer";
+import VentureStudio from "../components/sections/ventures/VentureStudio";
+import PreviousVentures from "../components/sections/ventures/PreviousVentures";
+import SelectedAcquisitions from "../components/sections/ventures/SelectedAcquisitions";
+import SelectedInvestments from "../components/sections/ventures/SelectedInvestments";
+import OperatingBelief from "../components/sections/ventures/OperatingBelief";
 
 export const metadata = {
-  title: "Ventures | Anil Mathews",
+  // Layout uses template: "%s | Anil Mathews"
+  // Keep this clean to avoid duplicate "| Anil Mathews".
+  title: "Ventures",
   description:
     "Current studio work at Alphabyte Ventures and previous roles including founding Near Intelligence with a public listing.",
   alternates: {
@@ -22,44 +24,46 @@ export const metadata = {
     title: "Ventures | Anil Mathews",
     description:
       "Current studio work at Alphabyte Ventures and previous roles including founding Near Intelligence with a public listing.",
-    images: [
-      "/images/og-home-1200x630.jpeg",
-    ],
+    images: ["/images/og-home-1200x630.jpeg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Ventures | Anil Mathews",
     description:
       "Current studio work at Alphabyte Ventures and previous roles including founding Near Intelligence with a public listing.",
-    images: [
-      "/images/og-home-1200x630.jpeg",
-    ],
+    images: ["/images/og-home-1200x630.jpeg"],
   },
-}
+};
 
 const Page = () => {
   const venturesPageJsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "@id": "https://www.anilmathews.com/ventures#collection",
-    "name": "Ventures",
-    "url": "https://www.anilmathews.com/ventures",
-    "about": {
-      "@type": "Person",
-      "@id": "https://www.anilmathews.com/#person"
+    name: "Ventures | Anil Mathews",
+    url: "https://www.anilmathews.com/ventures",
+    isPartOf: {
+      "@type": "WebSite",
+      "@id": "https://www.anilmathews.com/#website",
+      url: "https://www.anilmathews.com/",
+      name: "Anil Mathews",
     },
-    "creator": {
+    about: {
       "@type": "Person",
-      "@id": "https://www.anilmathews.com/#person"
+      "@id": "https://www.anilmathews.com/#person",
     },
-    "mentions": [
+    creator: {
+      "@type": "Person",
+      "@id": "https://www.anilmathews.com/#person",
+    },
+    mentions: [
       {
         "@type": "Organization",
-        "name": "Alphabyte Ventures",
-        "url": "https://www.alphabyte.com/"
-      }
-    ]
-  }
+        name: "Alphabyte Ventures",
+        url: "https://www.alphabyte.com/",
+      },
+    ],
+  };
 
   return (
     <>
@@ -80,7 +84,7 @@ const Page = () => {
         <Footer />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;
