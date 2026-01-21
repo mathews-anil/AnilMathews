@@ -5,25 +5,28 @@ import Editorial from "../components/sections/articles/Editorial";
 import Footer from "../components/layout/Footer";
 
 export const metadata = {
-  title: "Articles and Insights | Anil Mathews",
+  // Layout uses: template: "%s | Anil Mathews"
+  // So keep page title clean to avoid "Anil Mathews | Anil Mathews" nonsense.
+  title: "Articles and Insights",
   description:
-    "Selected essays and op-eds by Anil Mathews on retail media, building across regions, and using data to drive real business outcomes, with links to Forbes Technology Council, Times of India, LinkedIn, and more.",
+    "Essays and op-eds by Anil Mathews on building companies, data-driven strategy, and operating across markets, with selected work published in Forbes and other outlets.",
   alternates: {
     canonical: "https://www.anilmathews.com/articles",
   },
   openGraph: {
     type: "website",
     url: "https://www.anilmathews.com/articles",
+    // OG title should match what users see in SERP once template applies.
     title: "Articles and Insights | Anil Mathews",
     description:
-      "Selected essays and op-eds by Anil Mathews on retail media, building across regions, and using data to drive real business outcomes, with links to Forbes Technology Council, Times of India, LinkedIn, and more.",
+      "Essays and op-eds by Anil Mathews on building companies, data-driven strategy, and operating across markets, with selected work published in Forbes and other outlets.",
     images: ["/images/og-home-1200x630.jpeg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Articles and Insights | Anil Mathews",
     description:
-      "Selected essays and op-eds by Anil Mathews on retail media, building across regions, and using data to drive real business outcomes, with links to Forbes Technology Council, Times of India, LinkedIn, and more.",
+      "Essays and op-eds by Anil Mathews on building companies, data-driven strategy, and operating across markets, with selected work published in Forbes and other outlets.",
     images: ["/images/og-home-1200x630.jpeg"],
   },
 };
@@ -37,7 +40,7 @@ const Page = () => {
     url: "https://www.anilmathews.com/articles",
     name: "Articles and Insights | Anil Mathews",
     description:
-      "Selected essays and op-eds by Anil Mathews on retail media, building across regions, and using data to drive real business outcomes, with links to Forbes Technology Council, Times of India, LinkedIn, and more.",
+      "Essays and op-eds by Anil Mathews on building companies, data-driven strategy, and operating across markets, with selected work published in Forbes and other outlets.",
     isPartOf: {
       "@type": "WebSite",
       "@id": "https://www.anilmathews.com/#website",
@@ -63,7 +66,6 @@ const Page = () => {
       <script
         id="articles-jsonld"
         type="application/ld+json"
-        // Safe here because we're stringifying our own object.
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
