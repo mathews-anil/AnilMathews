@@ -9,25 +9,25 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Anil Mathews | Entrepreneur, Author & Founder of Alphabyte Ventures",
+  title: "Anil Mathews | Entrepreneur & Author",
   description:
-    "Entrepreneur and author Anil Mathews founded Near Intelligence and led it to a Nasdaq listing. Now leading Alphabyte Ventures, he builds purposeful companies at the intersection of technology and human possibility.",
+    "Entrepreneur and author Anil Mathews founded Near Intelligence and led it to a Nasdaq listing. He now leads Alphabyte Ventures, building companies across data, software, and applied AI.",
   alternates: {
     canonical: "https://www.anilmathews.com/",
   },
   openGraph: {
     type: "website",
     url: "https://www.anilmathews.com/",
-    title: "Anil Mathews | Entrepreneur, Author & Founder of Alphabyte Ventures",
+    title: "Anil Mathews | Entrepreneur & Author",
     description:
-      "Entrepreneur and author Anil Mathews founded Near Intelligence and led it to a Nasdaq listing. Now leading Alphabyte Ventures, he builds purposeful companies at the intersection of technology and human possibility.",
+      "Entrepreneur and author Anil Mathews founded Near Intelligence and led it to a Nasdaq listing. He now leads Alphabyte Ventures, building companies across data, software, and applied AI.",
     images: ["https://www.anilmathews.com/images/og-home-1200x630.jpeg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anil Mathews | Entrepreneur, Author & Founder of Alphabyte Ventures",
+    title: "Anil Mathews | Entrepreneur & Author",
     description:
-      "Entrepreneur and author Anil Mathews founded Near Intelligence and led it to a Nasdaq listing. Now leading Alphabyte Ventures, he builds purposeful companies at the intersection of technology and human possibility.",
+      "Entrepreneur and author Anil Mathews founded Near Intelligence and led it to a Nasdaq listing. He now leads Alphabyte Ventures, building companies across data, software, and applied AI.",
     images: ["https://www.anilmathews.com/images/og-home-1200x630.jpeg"],
   },
 };
