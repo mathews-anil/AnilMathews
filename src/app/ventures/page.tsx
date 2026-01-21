@@ -1,5 +1,5 @@
 import React from 'react'
-import Script from "next/script";
+import Script from 'next/script'
 import VenturesHero from '../components/sections/ventures/VenturesHero'
 import Header from '../components/layout/Header'
 import Footer from '../components/layout/Footer'
@@ -35,28 +35,41 @@ export const metadata = {
       "/images/og-home-1200x630.jpeg",
     ],
   },
-};
+}
 
-const page = () => {
+const Page = () => {
+  const venturesPageJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": "https://www.anilmathews.com/ventures#collection",
+    "name": "Ventures",
+    "url": "https://www.anilmathews.com/ventures",
+    "about": {
+      "@type": "Person",
+      "@id": "https://www.anilmathews.com/#person"
+    },
+    "creator": {
+      "@type": "Person",
+      "@id": "https://www.anilmathews.com/#person"
+    },
+    "mentions": [
+      {
+        "@type": "Organization",
+        "name": "Alphabyte Ventures",
+        "url": "https://www.alphabyte.com/"
+      }
+    ]
+  }
+
   return (
     <>
-      <Script id="organization-jsonld" type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Alphabyte Ventures",
-            "url": "https://www.alphabyte.com",
-            "founder": {
-              "@type": "Person",
-              "name": "Anil Mathews",
-              "url": "https://www.anilmathews.com/about-anil-mathews"
-            }
-          }
-        `}
-      </Script>
+      <Script
+        id="ventures-collection-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(venturesPageJsonLd) }}
+      />
 
-      <div className='bg-[#F7F4F1]'>
+      <div className="bg-[#F7F4F1]">
         <Header />
         <VenturesHero />
         <VentureStudio />
@@ -70,4 +83,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
