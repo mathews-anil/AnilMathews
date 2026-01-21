@@ -1,11 +1,12 @@
 import React from 'react'
+import Script from 'next/script'
 import Header from '../components/layout/Header'
 import Footer from '../components/layout/Footer'
 import PressHero from '../components/sections/press/PressHero'
 import Podcast from '../components/sections/press/Podcast'
 import ArticlesAndProfiles from '../components/sections/press/ArticlesAndProfiles'
 import OfficialCitations from '../components/sections/press/OfficialCitations'
-import Media from '../components/sections/home/Media'
+
 export const metadata = {
   title: "Press and Interviews | Anil Mathews",
   description:
@@ -32,20 +33,43 @@ export const metadata = {
       "/images/og-home-1200x630.jpeg",
     ],
   },
-};
+}
 
-const page = () => {
+const Page = () => {
+  const pressPageJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": "https://www.anilmathews.com/press#collection",
+    "name": "Press and Interviews",
+    "url": "https://www.anilmathews.com/press",
+    "about": {
+      "@type": "Person",
+      "@id": "https://www.anilmathews.com/#person"
+    },
+    "creator": {
+      "@type": "Person",
+      "@id": "https://www.anilmathews.com/#person"
+    }
+  }
+
   return (
-    <div className='bg-[#F7F4F1]'>
-      <Header />
-      <PressHero />
-      <Podcast />
-      <ArticlesAndProfiles />
-      <OfficialCitations />
-      {/* <Media /> */}
-      <Footer />
-    </div>
+    <>
+      <Script
+        id="press-collection-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pressPageJsonLd) }}
+      />
+
+      <div className="bg-[#F7F4F1]">
+        <Header />
+        <PressHero />
+        <Podcast />
+        <ArticlesAndProfiles />
+        <OfficialCitations />
+        <Footer />
+      </div>
+    </>
   )
 }
 
-export default page
+export default Page
