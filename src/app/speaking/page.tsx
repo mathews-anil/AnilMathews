@@ -1,4 +1,5 @@
 import React from 'react'
+import Script from 'next/script'
 import Header from '../components/layout/Header'
 import Footer from '../components/layout/Footer'
 import SpeakingHero from '../components/sections/speaking/SpeakingHero'
@@ -6,6 +7,7 @@ import TalkThemes from '../components/sections/speaking/TalkThemes'
 import ClipsAndFeatures from '../components/sections/speaking/ClipsAndFeatures'
 import FormateAndStyle from '../components/sections/speaking/FormateAndStyle'
 import Media from '../components/sections/home/Media'
+
 export const metadata = {
   title: "Speaking | Anil Mathews",
   description:
@@ -32,20 +34,44 @@ export const metadata = {
       "/images/og-home-1200x630.jpeg",
     ],
   },
-};
+}
 
-const page = () => {
+const Page = () => {
+  const speakingPageJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "@id": "https://www.anilmathews.com/speaking#profile",
+    "name": "Speaking Engagements",
+    "url": "https://www.anilmathews.com/speaking",
+    "about": {
+      "@type": "Person",
+      "@id": "https://www.anilmathews.com/#person"
+    },
+    "creator": {
+      "@type": "Person",
+      "@id": "https://www.anilmathews.com/#person"
+    }
+  }
+
   return (
-    <div className='bg-[#F7F4F1]'>
-      <Header />
-      <SpeakingHero />
-      <TalkThemes />
-      <ClipsAndFeatures />
-      <FormateAndStyle />
-      <Media />
-      <Footer />
-    </div>
+    <>
+      <Script
+        id="speaking-profile-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakingPageJsonLd) }}
+      />
+
+      <div className="bg-[#F7F4F1]">
+        <Header />
+        <SpeakingHero />
+        <TalkThemes />
+        <ClipsAndFeatures />
+        <FormateAndStyle />
+        <Media />
+        <Footer />
+      </div>
+    </>
   )
 }
 
-export default page
+export default Page
