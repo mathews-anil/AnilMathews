@@ -3,7 +3,7 @@ import Header from '@/app/components/layout/Header'
 import Absolute from '@/app/components/sections/interviews/Absolute'
 import React from 'react'
 export const metadata = {
-  title: "Absolute Return Podcast #231 | Anil Mathews",
+  title: "Absolute Return Podcast #231",
   description:
     "Episode #231 of the Absolute Return Podcast (Sep 19, 2022): Anil Mathews on entrepreneurship, why enterprise software wins, and how Near’s datasets are used. Hosted by Julian Klymochko and Michael Kesslering.",
   alternates: {
