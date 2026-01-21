@@ -1,5 +1,4 @@
 import React from "react";
-import Script from "next/script";
 import HomeHero from "./components/sections/home/HomeHero";
 import Partners from "./components/sections/home/Partners";
 import Vision from "./components/sections/home/Vision";
@@ -34,61 +33,24 @@ export const metadata = {
 };
 
 const page = () => {
-  const personJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://www.anilmathews.com/#person",
-    name: "Anil Mathews",
-    url: "https://www.anilmathews.com/",
-    image: "https://www.anilmathews.com/images/anil-mathews-portrait.png",
-    jobTitle: "Entrepreneur, Author & Founder of Alphabyte Ventures",
-    worksFor: {
-      "@type": "Organization",
-      "@id": "https://www.alphabyte.com/#org",
-      name: "Alphabyte Ventures",
-      url: "https://www.alphabyte.com/",
-    },
-    sameAs: [
-      "https://www.linkedin.com/in/anilmathews",
-      "https://x.com/anilmatt",
-      "https://www.bloomberg.com/profile/person/18916791",
-      "https://medium.com/@anilmathewsofficial",
-      "https://www.forbes.com/councils/forbestechcouncil/people/anilmathews/",
-      "https://www.crunchbase.com/person/anil-mathews",
-      "https://www.amazon.com/author/anilmathews",
-      "https://www.goodreads.com/author/show/57597604.Anil_Mathews",
-      "https://mathews.com/",
-      "https://www.alphabyte.com/",
-      "https://www.thestartswitch.com/",
-    ],
-  };
-
   return (
-    <>
-      <Script
-        id="person-jsonld"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
-      />
+    <div className="bg-[#F7F4F1]">
+      <HomeHero />
+      <Partners />
+      <Vision />
+      <StartSwitch />
+      <Media />
+      <Footer />
 
-      <div className="bg-[#F7F4F1]">
-        <HomeHero />
-        <Partners />
-        <Vision />
-        <StartSwitch />
-        <Media />
-        <Footer />
-
-        <div className="flex-col flex gap-4 fixed bottom-[20px] right-[50px] z-20">
-          <Link
-            href="https://www.linkedin.com/in/anilmathews"
-            className="w-[48px] h-[48px] rounded-full border border-[#88888840] bg-[#111418]/1 hover:bg-white/10 flex justify-center items-center"
-          >
-            <FaLinkedinIn className="text-[24px] text-[#E8DCCB]" />
-          </Link>
-        </div>
+      <div className="flex-col flex gap-4 fixed bottom-[20px] right-[50px] z-20">
+        <Link
+          href="https://www.linkedin.com/in/anilmathews"
+          className="w-[48px] h-[48px] rounded-full border border-[#88888840] bg-[#111418]/1 hover:bg-white/10 flex justify-center items-center"
+        >
+          <FaLinkedinIn className="text-[24px] text-[#E8DCCB]" />
+        </Link>
       </div>
-    </>
+    </div>
   );
 };
 
