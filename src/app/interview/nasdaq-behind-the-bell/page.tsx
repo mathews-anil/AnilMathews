@@ -3,7 +3,7 @@ import Header from '@/app/components/layout/Header'
 import Footer from '@/app/components/layout/Footer'
 import Behind from '@/app/components/sections/interviews/Behind'
 export const metadata = {
-  title: "Nasdaq Behind the Bell | Anil Mathews",
+  title: "Nasdaq Behind the Bell",
   description:
     "A short Nasdaq MarketSite segment from the Behind the Bell series recorded on Near Intelligence’s listing day, marking its debut on Nasdaq under ticker NIR.",
   alternates: {
