@@ -1,17 +1,19 @@
-import React from 'react'
-import Script from 'next/script'
-import Header from '../components/layout/Header'
-import Footer from '../components/layout/Footer'
-import SpeakingHero from '../components/sections/speaking/SpeakingHero'
-import TalkThemes from '../components/sections/speaking/TalkThemes'
-import ClipsAndFeatures from '../components/sections/speaking/ClipsAndFeatures'
-import FormateAndStyle from '../components/sections/speaking/FormateAndStyle'
-import Media from '../components/sections/home/Media'
+import React from "react";
+import Script from "next/script";
+import Header from "../components/layout/Header";
+import Footer from "../components/layout/Footer";
+import SpeakingHero from "../components/sections/speaking/SpeakingHero";
+import TalkThemes from "../components/sections/speaking/TalkThemes";
+import ClipsAndFeatures from "../components/sections/speaking/ClipsAndFeatures";
+import FormateAndStyle from "../components/sections/speaking/FormateAndStyle";
+import Media from "../components/sections/home/Media";
 
 export const metadata = {
-  title: "Speaking | Anil Mathews",
+  // Layout uses template: "%s | Anil Mathews"
+  // Keep this clean to avoid duplicate "| Anil Mathews".
+  title: "Speaking",
   description:
-    "Talks and workshops on starting fast, pricing for traction, and leading small teams that ship. Clips and booking details.",
+    "Talks and workshops by Anil Mathews on starting fast, pricing for traction, and leading small teams that ship. Clips and booking details.",
   alternates: {
     canonical: "https://www.anilmathews.com/speaking",
   },
@@ -20,43 +22,53 @@ export const metadata = {
     url: "https://www.anilmathews.com/speaking",
     title: "Speaking | Anil Mathews",
     description:
-      "Talks and workshops on starting fast, pricing for traction, and leading small teams that ship. Clips and booking details.",
-    images: [
-      "/images/og-home-1200x630.jpeg",
-    ],
+      "Talks and workshops by Anil Mathews on starting fast, pricing for traction, and leading small teams that ship. Clips and booking details.",
+    images: ["/images/og-home-1200x630.jpeg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Speaking | Anil Mathews",
     description:
-      "Talks and workshops on starting fast, pricing for traction, and leading small teams that ship. Clips and booking details.",
-    images: [
-      "/images/og-home-1200x630.jpeg",
-    ],
+      "Talks and workshops by Anil Mathews on starting fast, pricing for traction, and leading small teams that ship. Clips and booking details.",
+    images: ["/images/og-home-1200x630.jpeg"],
   },
-}
+};
 
 const Page = () => {
   const speakingPageJsonLd = {
     "@context": "https://schema.org",
-    "@type": "ProfilePage",
-    "@id": "https://www.anilmathews.com/speaking#profile",
-    "name": "Speaking Engagements",
-    "url": "https://www.anilmathews.com/speaking",
-    "about": {
+    "@type": "CollectionPage",
+    "@id": "https://www.anilmathews.com/speaking#collection",
+    name: "Speaking | Anil Mathews",
+    url: "https://www.anilmathews.com/speaking",
+    about: {
       "@type": "Person",
-      "@id": "https://www.anilmathews.com/#person"
+      "@id": "https://www.anilmathews.com/#person",
     },
-    "creator": {
+    creator: {
       "@type": "Person",
-      "@id": "https://www.anilmathews.com/#person"
-    }
-  }
+      "@id": "https://www.anilmathews.com/#person",
+    },
+    author: {
+      "@type": "Person",
+      "@id": "https://www.anilmathews.com/#person",
+    },
+    publisher: {
+      "@type": "Person",
+      "@id": "https://www.anilmathews.com/#person",
+    },
+    isPartOf: {
+      "@type": "WebSite",
+      "@id": "https://www.anilmathews.com/#website",
+      url: "https://www.anilmathews.com/",
+      name: "Anil Mathews",
+    },
+  };
 
   return (
     <>
       <Script
-        id="speaking-profile-jsonld"
+        id="speaking-collection-jsonld"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(speakingPageJsonLd) }}
       />
@@ -71,7 +83,7 @@ const Page = () => {
         <Footer />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;
