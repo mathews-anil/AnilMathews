@@ -8,26 +8,26 @@ import Media from "../components/sections/home/Media";
 import Footer from "../components/layout/Footer";
 
 export const metadata = {
-  title: "About Anil Mathews | Entrepreneur and Author",
+  title: "About Anil Mathews",
   description:
-    "Background, milestones, and operating beliefs from Anil Mathews, founder who led Near Intelligence to a Nasdaq listing and now builds focused software at Alphabyte Ventures.",
+    "Biography, milestones, and operating principles from Anil Mathews, who founded Near Intelligence and led it to a Nasdaq listing, and now leads Alphabyte Ventures.",
   alternates: {
     canonical: "https://www.anilmathews.com/about-anil-mathews",
   },
   openGraph: {
     type: "website",
     url: "https://www.anilmathews.com/about-anil-mathews",
-    title: "About Anil Mathews | Entrepreneur and Author",
+    title: "About Anil Mathews",
     description:
-      "Background, milestones, and operating beliefs from Anil Mathews, founder who led Near Intelligence to a Nasdaq listing and now builds focused software at Alphabyte Ventures.",
-    images: ["/images/og-home-1200x630.jpeg"],
+      "Biography, milestones, and operating principles from Anil Mathews, who founded Near Intelligence and led it to a Nasdaq listing, and now leads Alphabyte Ventures.",
+    images: ["https://www.anilmathews.com/images/og-home-1200x630.jpeg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Anil Mathews | Entrepreneur and Author",
+    title: "About Anil Mathews",
     description:
-      "Background, milestones, and operating beliefs from Anil Mathews, founder who led Near Intelligence to a Nasdaq listing and now builds focused software at Alphabyte Ventures.",
-    images: ["/images/og-home-1200x630.jpeg"],
+      "Biography, milestones, and operating principles from Anil Mathews, who founded Near Intelligence and led it to a Nasdaq listing, and now leads Alphabyte Ventures.",
+    images: ["https://www.anilmathews.com/images/og-home-1200x630.jpeg"],
   },
 };
 
