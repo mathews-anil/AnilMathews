@@ -39,7 +39,7 @@ export const degular = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Anil Mathews | Entrepreneur and Author",
+    default: "Anil Mathews | Entrepreneur & Author",
     template: "%s | Anil Mathews",
   },
   description:
@@ -69,9 +69,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="manifest" href="/manifest.json" />
-      </head>
       <body
         className={`${inter.variable} ${charter.variable} ${degular.variable} antialiased`}
       >
