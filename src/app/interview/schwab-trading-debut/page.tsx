@@ -3,7 +3,7 @@ import Header from '@/app/components/layout/Header'
 import Schwab from '@/app/components/sections/interviews/Schwab'
 import React from 'react'
 export const metadata = {
-  title: "Schwab Network Interview | Anil Mathews",
+  title: "Schwab Network Interview",
   description:
     "Interview with Nicole Petallides on Schwab Network ahead of Near Intelligence’s Nasdaq debut under ticker NIR, covering what Near does and the listing timeline.",
   alternates: {
