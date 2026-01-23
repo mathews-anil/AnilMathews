@@ -29,7 +29,8 @@ export const metadata = {
     title: "Press and Interviews | Anil Mathews",
     description:
       "Interviews and coverage featuring Anil Mathews across TV, podcasts, and publications, including Bloomberg TV, Schwab Network, TechCrunch, and Forbes.",
-    images: ["/images/og-home-1200x630.jpeg"],
+    images: ["https://www.anilmathews.com/images/og-home-1200x630.jpeg"]
+"],
   },
 };
 
