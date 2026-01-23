@@ -31,9 +31,35 @@ export const metadata = {
   },
 };
 
-const page = () => {
+const aboutProfilePageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://www.anilmathews.com/about-anil-mathews#profilepage",
+  url: "https://www.anilmathews.com/about-anil-mathews",
+  name: "About Anil Mathews",
+  description:
+    "Biography, milestones, and operating principles from Anil Mathews, who founded Near Intelligence and led it to a Nasdaq listing, and now leads Alphabyte Ventures.",
+  mainEntity: {
+    "@type": "Person",
+    "@id": "https://www.anilmathews.com/#person",
+  },
+  isPartOf: {
+    "@type": "WebSite",
+    "@id": "https://www.anilmathews.com/#website",
+    url: "https://www.anilmathews.com/",
+    name: "Anil Mathews",
+  },
+};
+
+const Page = () => {
   return (
     <div className="bg-[#F7F4F1]">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(aboutProfilePageJsonLd),
+        }}
+      />
       <AboutHero />
       <Idea />
       <Building />
@@ -45,4 +71,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
