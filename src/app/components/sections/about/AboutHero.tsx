@@ -20,14 +20,14 @@ const AboutHero = () => {
   return (
     <div className="max-w-[1920px] mx-auto relative">
       <div>
-        <header className="flex px-4 md:px-12  py-[17px] md:py-7 justify-between items-center relative z-50">
+        <header className="flex px-4 md:px-12 py-[17px] md:py-7 justify-between items-center relative z-50">
           <Link href="/">
             <Image
               src="/images/header/logo.png"
               width={152}
               height={26}
               alt="Anil Mathews"
-              className="w-[122px] 2xl:w-[152px] "
+              className="w-[122px] 2xl:w-[152px]"
             />
           </Link>
 
@@ -48,7 +48,7 @@ const AboutHero = () => {
 
                   <span
                     className={`absolute -bottom-[1px] left-0 h-[1px] bg-[#1A3470] transition-all duration-300 
-                  ${isActive ? "w-full" : "w-0 group-hover:w-full"}`}
+                    ${isActive ? "w-full" : "w-0 group-hover:w-full"}`}
                   />
                 </li>
               );
@@ -80,7 +80,7 @@ const AboutHero = () => {
         </header>
 
         <div
-          className={` lg:hidden  fixed inset-0 z-40 flex justify-center items-start transition-all duration-300 ${
+          className={`lg:hidden fixed inset-0 z-40 flex justify-center items-start transition-all duration-300 ${
             open
               ? "opacity-100 pointer-events-auto"
               : "opacity-0 pointer-events-none"
@@ -121,10 +121,10 @@ const AboutHero = () => {
               </ul>
             </div>
 
-            <div className=" flex flex-col gap-4 w-full px-[39px]">
+            <div className="flex flex-col gap-4 w-full px-[39px]">
               <Link
                 href="/ventures"
-                className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium "
+                className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium"
                 onClick={() => setOpen(false)}
               >
                 Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
@@ -132,7 +132,7 @@ const AboutHero = () => {
 
               <Link
                 href="/speaking"
-                className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium "
+                className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium"
                 onClick={() => setOpen(false)}
               >
                 BOOK A TALK <MdKeyboardArrowRight className="text-2xl" />
@@ -162,10 +162,9 @@ const AboutHero = () => {
           alt="Portrait of Anil Mathews"
           width={814}
           height={1038}
-          className=" lg:w-[700px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px] hidden lg:block"
+          className="lg:w-[700px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px] hidden lg:block"
         />
 
-        {/* Make this column a flex container so we can push the CTA block to the bottom on desktop */}
         <div className="w-full lg:w-[30%] [@media(min-width:1130px)]:w-[35%] [@media(min-width:1250px)]:w-[42%] xl:w-[45%]! [@media(min-width:1350px)]:w-[50%]! lg:pt-[50px] about_main_section [@media(min-width:1550px)]:w-[55%]! flex flex-col gap-[20px] lg:gap-[100px] min-h-[500px] xl:min-h-[920px] [@media(min-width:1400px)]:min-h-[950px] 2xl:min-h-[970px]!">
           <div className="flex flex-col items-start gap-[15px] lg:gap-[30px] relative">
             <p className="font-inter text-base uppercase text-[#111111] lg:ml-[40px] xl:ml-[65px] order-2 lg:order-1 mt-7 lg:mt-0">
@@ -190,32 +189,27 @@ const AboutHero = () => {
               width={134}
               height={130}
               alt="about icon"
-              className=" hidden xl:block xl:absolute bottom-[-30px] 2xl:bottom-[-50px] right-[15%] 2xl:right-[15%] w-[50px] 2xl:w-[130px]"
+              className="hidden xl:block xl:absolute bottom-[-30px] 2xl:bottom-[-50px] right-[15%] 2xl:right-[15%] w-[50px] 2xl:w-[130px]"
             />
           </div>
 
-          {/* Copy + CTA */}
-          <div className="flex flex-col w-[95%] 2xl:w-[578px] xl:ml-[10%] 2xl:ml-[10%] flex-1">
-            {/* Copy */}
-            <div className="flex flex-col gap-[25px] lg:gap-[30px]">
-              <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
-                Over the past two decades I’ve built companies that prove small,
-                clear-thinking teams can shape global markets. I founded Near
-                Intelligence, scaled it across Asia, Australia, Europe, and North
-                America, and led its Nasdaq listing at a valuation near one
-                billion dollars.
-              </p>
+          <div className="flex flex-col gap-[25px] lg:gap-[30px] w-[95%] 2xl:w-[578px] xl:ml-[10%] 2xl:ml-[10%]">
+            <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
+              Over the past two decades I’ve built companies that prove small,
+              clear-thinking teams can shape global markets. I founded Near
+              Intelligence, scaled it across Asia, Australia, Europe, and North
+              America, and led its Nasdaq listing at a valuation near one
+              billion dollars.
+            </p>
 
-              <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
-                Today I lead Alphabyte Ventures, a studio that creates and invests
-                in focused software products that give clarity, speed, and
-                precision to ambitious teams everywhere.
-              </p>
-            </div>
+            <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
+              Today I lead Alphabyte Ventures, a studio that creates and invests
+              in focused software products that give clarity, speed, and
+              precision to ambitious teams everywhere.
+            </p>
 
-            {/* CTA block: bottom aligned on desktop */}
-            <div className="mt-6 lg:mt-auto mb-[50px] lg:mb-0 flex flex-col gap-2">
-              {/* Primary CTA */}
+            {/* Keep original Alphabyte CTA style for BOTH links */}
+            <div className="mt-[-15px] lg:mt-0 mb-[50px] lg:mb-0 flex flex-col">
               <Link
                 href="https://www.alphabyte.com/"
                 target="_blank"
@@ -225,10 +219,9 @@ const AboutHero = () => {
                 Visit Alphabyte Ventures <MdKeyboardArrowRight className="text-2xl" />
               </Link>
 
-              {/* Secondary CTA: same style, slightly softer via opacity only */}
               <Link
                 href="/about-anil-mathews/fact-sheet"
-                className="bg-transparent flex items-center gap-2 text-[#1A3470] opacity-80 hover:opacity-100 transition-opacity h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold"
+                className="bg-transparent flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold mt-2"
               >
                 View Fact Sheet <MdKeyboardArrowRight className="text-2xl" />
               </Link>
