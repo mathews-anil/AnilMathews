@@ -1,4 +1,3 @@
-import React from "react";
 import Script from "next/script";
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
@@ -8,8 +7,6 @@ import ArticlesAndProfiles from "../components/sections/press/ArticlesAndProfile
 import OfficialCitations from "../components/sections/press/OfficialCitations";
 
 export const metadata = {
-  // Layout uses template: "%s | Anil Mathews"
-  // So keep this clean to avoid duplicates.
   title: "Press and Interviews",
   description:
     "Interviews and coverage featuring Anil Mathews across TV, podcasts, and publications, including Bloomberg TV, Schwab Network, TechCrunch, and Forbes.",
@@ -22,15 +19,18 @@ export const metadata = {
     title: "Press and Interviews | Anil Mathews",
     description:
       "Interviews and coverage featuring Anil Mathews across TV, podcasts, and publications, including Bloomberg TV, Schwab Network, TechCrunch, and Forbes.",
-    images: ["/images/og-home-1200x630.jpeg"],
+    images: [
+      "https://www.anilmathews.com/images/og-home-1200x630.jpeg",
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Press and Interviews | Anil Mathews",
     description:
       "Interviews and coverage featuring Anil Mathews across TV, podcasts, and publications, including Bloomberg TV, Schwab Network, TechCrunch, and Forbes.",
-    images: ["https://www.anilmathews.com/images/og-home-1200x630.jpeg"]
-"],
+    images: [
+      "https://www.anilmathews.com/images/og-home-1200x630.jpeg",
+    ],
   },
 };
 
@@ -70,7 +70,9 @@ const Page = () => {
       <Script
         id="press-collection-jsonld"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(pressPageJsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(pressPageJsonLd),
+        }}
       />
 
       <div className="bg-[#F7F4F1]">
