@@ -79,6 +79,7 @@ const AboutHero = () => {
           </button>
         </header>
 
+        {/* Mobile menu */}
         <div
           className={`lg:hidden fixed inset-0 z-40 flex justify-center items-start transition-all duration-300 ${
             open
@@ -93,38 +94,20 @@ const AboutHero = () => {
           >
             <div className="flex flex-col gap-4 md:gap-8 px-[59px]">
               <ul className="flex flex-col gap-4 md:gap-8 text-[25px] md:text-[36px] font-charter text-[#E8DCCB]">
-                <li>
-                  <Link href="/about-anil-mathews" onClick={() => setOpen(false)}>
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/press" onClick={() => setOpen(false)}>
-                    Press
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/speaking" onClick={() => setOpen(false)}>
-                    Speaking
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/ventures" onClick={() => setOpen(false)}>
-                    Ventures
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/articles" onClick={() => setOpen(false)}>
-                    Articles
-                  </Link>
-                </li>
+                {navItems.map((item) => (
+                  <li key={item.path}>
+                    <Link href={item.path} onClick={() => setOpen(false)}>
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
 
             <div className="flex flex-col gap-4 w-full px-[39px]">
               <Link
                 href="/ventures"
-                className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium"
+                className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium"
                 onClick={() => setOpen(false)}
               >
                 Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
@@ -132,7 +115,7 @@ const AboutHero = () => {
 
               <Link
                 href="/speaking"
-                className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium"
+                className="w-full bg-[#E8DCCB12] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium"
                 onClick={() => setOpen(false)}
               >
                 BOOK A TALK <MdKeyboardArrowRight className="text-2xl" />
@@ -143,7 +126,7 @@ const AboutHero = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row justify-end px-4 md:px-12 main_padding_left gap-[20px] lg:gap-0">
-        {/* Single semantic H1 for SEO + accessibility. Visually hidden to preserve design. */}
+        {/* Single semantic H1 */}
         <h1 className="sr-only">
           Anil Mathews is an entrepreneur and author, founder of Near Intelligence
           and Alphabyte Ventures.
@@ -151,7 +134,7 @@ const AboutHero = () => {
 
         <Image
           src="/images/about/about_mob_new.png"
-          alt="Portrait of Anil Mathews, entrepreneur and author"
+          alt="Portrait of Anil Mathews"
           width={370}
           height={527}
           className="w-full lg:hidden mt-[-40px]"
@@ -162,7 +145,7 @@ const AboutHero = () => {
           alt="Portrait of Anil Mathews"
           width={814}
           height={1038}
-          className="lg:w-[700px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px] hidden lg:block"
+          className="hidden lg:block lg:w-[700px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px]"
         />
 
         <div className="w-full lg:w-[30%] [@media(min-width:1130px)]:w-[35%] [@media(min-width:1250px)]:w-[42%] xl:w-[45%]! [@media(min-width:1350px)]:w-[50%]! lg:pt-[50px] about_main_section [@media(min-width:1550px)]:w-[55%]! flex flex-col gap-[20px] lg:gap-[100px] min-h-[500px] xl:min-h-[920px] [@media(min-width:1400px)]:min-h-[950px] 2xl:min-h-[970px]!">
@@ -171,9 +154,8 @@ const AboutHero = () => {
               I’m AN
             </p>
 
-            {/* Visual hero heading stays the same; now it's an H2 to keep exactly one H1 on the page. */}
             <h2 className="font-charter order-3 lg:order-2 main_about_heading uppercase text-[#111111] main_heading_letter_space">
-              entrepreneur <br />& author{" "}
+              entrepreneur <br />& author
             </h2>
 
             <p
@@ -208,8 +190,8 @@ const AboutHero = () => {
               precision to ambitious teams everywhere.
             </p>
 
-            {/* Keep original Alphabyte CTA style for BOTH links */}
-            <div className="mt-[-15px] lg:mt-0 mb-[50px] lg:mb-0 flex flex-col">
+            {/* CTA block */}
+            <div className="mt-4 lg:mt-0 mb-[50px] lg:mb-0 flex flex-col gap-1">
               <Link
                 href="https://www.alphabyte.com/"
                 target="_blank"
@@ -221,7 +203,7 @@ const AboutHero = () => {
 
               <Link
                 href="/about-anil-mathews/fact-sheet"
-                className="bg-transparent flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold mt-2"
+                className="bg-transparent flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold"
               >
                 View Fact Sheet <MdKeyboardArrowRight className="text-2xl" />
               </Link>
