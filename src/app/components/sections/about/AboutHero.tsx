@@ -20,14 +20,14 @@ const AboutHero = () => {
   return (
     <div className="max-w-[1920px] mx-auto relative">
       <div>
-        <header className="flex px-4 md:px-12  py-[17px] md:py-7 justify-between items-center relative z-50">
+        <header className="flex px-4 md:px-12 py-[17px] md:py-7 justify-between items-center relative z-50">
           <Link href="/">
             <Image
               src="/images/header/logo.png"
               width={152}
               height={26}
               alt="Anil Mathews"
-              className="w-[122px] 2xl:w-[152px] "
+              className="w-[122px] 2xl:w-[152px]"
             />
           </Link>
 
@@ -48,7 +48,7 @@ const AboutHero = () => {
 
                   <span
                     className={`absolute -bottom-[1px] left-0 h-[1px] bg-[#1A3470] transition-all duration-300 
-                  ${isActive ? "w-full" : "w-0 group-hover:w-full"}`}
+                    ${isActive ? "w-full" : "w-0 group-hover:w-full"}`}
                   />
                 </li>
               );
@@ -79,8 +79,9 @@ const AboutHero = () => {
           </button>
         </header>
 
+        {/* Mobile Menu */}
         <div
-          className={` lg:hidden  fixed inset-0 z-40 flex justify-center items-start transition-all duration-300 ${
+          className={`lg:hidden fixed inset-0 z-40 flex justify-center items-start transition-all duration-300 ${
             open
               ? "opacity-100 pointer-events-auto"
               : "opacity-0 pointer-events-none"
@@ -93,47 +94,29 @@ const AboutHero = () => {
           >
             <div className="flex flex-col gap-4 md:gap-8 px-[59px]">
               <ul className="flex flex-col gap-4 md:gap-8 text-[25px] md:text-[36px] font-charter text-[#E8DCCB]">
-                <li>
-                  <Link href="/about-anil-mathews" onClick={() => setOpen(false)}>
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/press" onClick={() => setOpen(false)}>
-                    Press
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/speaking" onClick={() => setOpen(false)}>
-                    Speaking
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/ventures" onClick={() => setOpen(false)}>
-                    Ventures
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/articles" onClick={() => setOpen(false)}>
-                    Articles
-                  </Link>
-                </li>
+                {navItems.map((item) => (
+                  <li key={item.path}>
+                    <Link href={item.path} onClick={() => setOpen(false)}>
+                      {item.name}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
 
-            <div className=" flex flex-col gap-4 w-full px-[39px]">
+            <div className="flex flex-col gap-4 w-full px-[39px]">
               <Link
                 href="/ventures"
-                className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] backdrop-blur-[25px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium "
                 onClick={() => setOpen(false)}
+                className="w-full bg-[#1A3470] text-[#E8DCCB] h-[50px] flex justify-center items-center gap-2 rounded-full uppercase text-sm font-inter font-medium"
               >
                 Explore Ventures <MdKeyboardArrowRight className="text-2xl" />
               </Link>
 
               <Link
                 href="/speaking"
-                className="w-full bg-[#E8DCCB12] backdrop-blur-[25px] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium "
                 onClick={() => setOpen(false)}
+                className="w-full bg-[#E8DCCB12] border border-[#11141826] flex justify-center items-center gap-2 text-[#E8DCCB] h-[50px] rounded-full uppercase text-sm font-inter font-medium"
               >
                 BOOK A TALK <MdKeyboardArrowRight className="text-2xl" />
               </Link>
@@ -142,8 +125,9 @@ const AboutHero = () => {
         </div>
       </div>
 
+      {/* Hero Content */}
       <div className="flex flex-col lg:flex-row justify-end px-4 md:px-12 main_padding_left gap-[20px] lg:gap-0">
-        {/* Single semantic H1 for SEO + accessibility. Visually hidden to preserve design. */}
+        {/* Single semantic H1 */}
         <h1 className="sr-only">
           Anil Mathews is an entrepreneur and author, founder of Near Intelligence
           and Alphabyte Ventures.
@@ -151,7 +135,7 @@ const AboutHero = () => {
 
         <Image
           src="/images/about/about_mob_new.png"
-          alt="Portrait of Anil Mathews, entrepreneur and author"
+          alt="Portrait of Anil Mathews"
           width={370}
           height={527}
           className="w-full lg:hidden mt-[-40px]"
@@ -162,22 +146,21 @@ const AboutHero = () => {
           alt="Portrait of Anil Mathews"
           width={814}
           height={1038}
-          className=" lg:w-[700px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px] hidden lg:block"
+          className="hidden lg:block lg:w-[700px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px]"
         />
 
-        <div className="w-full lg:w-[30%] [@media(min-width:1130px)]:w-[35%] [@media(min-width:1250px)]:w-[42%] xl:w-[45%]! [@media(min-width:1350px)]:w-[50%]! lg:pt-[50px] about_main_section [@media(min-width:1550px)]:w-[55%]! flex flex-col gap-[20px] lg:gap-[100px] min-h-[500px] xl:min-h-[920px] [@media(min-width:1400px)]:min-h-[950px] 2xl:min-h-[970px]!">
+        <div className="w-full lg:w-[30%] [@media(min-width:1130px)]:w-[35%] [@media(min-width:1250px)]:w-[42%] xl:w-[45%]! [@media(min-width:1350px)]:w-[50%]! lg:pt-[50px] about_main_section flex flex-col gap-[20px] lg:gap-[100px] min-h-[500px] xl:min-h-[920px] 2xl:min-h-[970px]!">
           <div className="flex flex-col items-start gap-[15px] lg:gap-[30px] relative">
-            <p className="font-inter text-base uppercase text-[#111111] lg:ml-[40px] xl:ml-[65px] order-2 lg:order-1 mt-7 lg:mt-0">
+            <p className="font-inter text-base uppercase text-[#111111] lg:ml-[40px] xl:ml-[65px]">
               I’m AN
             </p>
 
-            {/* Visual hero heading stays the same; now it's an H2 to keep exactly one H1 on the page. */}
-            <h2 className="font-charter order-3 lg:order-2 main_about_heading uppercase text-[#111111] main_heading_letter_space">
-              entrepreneur <br />& author{" "}
+            <h2 className="font-charter main_about_heading uppercase text-[#111111] main_heading_letter_space">
+              entrepreneur <br />& author
             </h2>
 
             <p
-              className="order-1 lg:order-3 font-inter text-sm lg:text-base uppercase text-[#111111] w-full xl:w-[432px] ml-3 xl:ml-[50px] 2xl:ml-[120px] [@media(min-width:1700px)]:ml-[170px]"
+              className="font-inter text-sm lg:text-base uppercase text-[#111111] w-full xl:w-[432px] ml-3 xl:ml-[50px] 2xl:ml-[120px]"
               style={{ letterSpacing: "-1px" }}
             >
               driven by one idea: technology should expand human potential, not
@@ -189,11 +172,11 @@ const AboutHero = () => {
               width={134}
               height={130}
               alt="about icon"
-              className=" hidden xl:block xl:absolute bottom-[-30px] 2xl:bottom-[-50px] right-[15%] 2xl:right-[15%] w-[50px] 2xl:w-[130px]"
+              className="hidden xl:block xl:absolute bottom-[-30px] right-[15%] w-[50px] 2xl:w-[130px]"
             />
           </div>
 
-          <div className="flex flex-col gap-[25px] lg:gap-[30px] w-[95%] 2xl:w-[578px] xl:ml-[10%] 2xl:ml-[10%]">
+          <div className="flex flex-col gap-[25px] lg:gap-[30px] w-[95%] 2xl:w-[578px] xl:ml-[10%]">
             <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
               Over the past two decades I’ve built companies that prove small,
               clear-thinking teams can shape global markets. I founded Near
@@ -208,15 +191,24 @@ const AboutHero = () => {
               precision to ambitious teams everywhere.
             </p>
 
-            <Link
-              href="https://www.alphabyte.com/"
-              target="_blank"
-              rel="noopener"
-              className="bg-transparent mt-[-15px] lg:mt-0 mb-[50px] lg:mb-0 flex items-center gap-2 text-[#1A3470] h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold "
-            >
-              Visit Alphabyte Ventures{" "}
-              <MdKeyboardArrowRight className="text-2xl" />
-            </Link>
+            {/* Primary + Secondary CTA */}
+            <div className="flex flex-col">
+              <Link
+                href="https://www.alphabyte.com/"
+                target="_blank"
+                rel="noopener"
+                className="flex items-center gap-2 text-[#1A3470] h-[46px] uppercase text-sm lg:text-base font-inter font-semibold"
+              >
+                Visit Alphabyte Ventures <MdKeyboardArrowRight className="text-2xl" />
+              </Link>
+
+              <Link
+                href="/about-anil-mathews/fact-sheet"
+                className="inline-flex items-center gap-2 font-inter uppercase text-xs lg:text-sm font-semibold text-[#111111] opacity-60 hover:opacity-100 transition-opacity w-fit mt-2 ml-[2px]"
+              >
+                View Fact Sheet <MdKeyboardArrowRight className="text-xl" />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
