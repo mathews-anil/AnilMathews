@@ -165,6 +165,7 @@ const AboutHero = () => {
           className=" lg:w-[700px] xl:w-[700px] 2xl:w-[800px] z-10 absolute top-[9px] left-[10px] hidden lg:block"
         />
 
+        {/* Make this column a flex container so we can push the CTA block to the bottom on desktop */}
         <div className="w-full lg:w-[30%] [@media(min-width:1130px)]:w-[35%] [@media(min-width:1250px)]:w-[42%] xl:w-[45%]! [@media(min-width:1350px)]:w-[50%]! lg:pt-[50px] about_main_section [@media(min-width:1550px)]:w-[55%]! flex flex-col gap-[20px] lg:gap-[100px] min-h-[500px] xl:min-h-[920px] [@media(min-width:1400px)]:min-h-[950px] 2xl:min-h-[970px]!">
           <div className="flex flex-col items-start gap-[15px] lg:gap-[30px] relative">
             <p className="font-inter text-base uppercase text-[#111111] lg:ml-[40px] xl:ml-[65px] order-2 lg:order-1 mt-7 lg:mt-0">
@@ -193,23 +194,28 @@ const AboutHero = () => {
             />
           </div>
 
-          <div className="flex flex-col gap-[25px] lg:gap-[30px] w-[95%] 2xl:w-[578px] xl:ml-[10%] 2xl:ml-[10%]">
-            <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
-              Over the past two decades I’ve built companies that prove small,
-              clear-thinking teams can shape global markets. I founded Near
-              Intelligence, scaled it across Asia, Australia, Europe, and North
-              America, and led its Nasdaq listing at a valuation near one
-              billion dollars.
-            </p>
+          {/* Copy + CTA */}
+          <div className="flex flex-col w-[95%] 2xl:w-[578px] xl:ml-[10%] 2xl:ml-[10%] flex-1">
+            {/* Copy */}
+            <div className="flex flex-col gap-[25px] lg:gap-[30px]">
+              <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
+                Over the past two decades I’ve built companies that prove small,
+                clear-thinking teams can shape global markets. I founded Near
+                Intelligence, scaled it across Asia, Australia, Europe, and North
+                America, and led its Nasdaq listing at a valuation near one
+                billion dollars.
+              </p>
 
-            <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
-              Today I lead Alphabyte Ventures, a studio that creates and invests
-              in focused software products that give clarity, speed, and
-              precision to ambitious teams everywhere.
-            </p>
+              <p className="text-base lg:text-xl font-inter text-[#111111] opacity-65">
+                Today I lead Alphabyte Ventures, a studio that creates and invests
+                in focused software products that give clarity, speed, and
+                precision to ambitious teams everywhere.
+              </p>
+            </div>
 
-            {/* CTA Block: primary + secondary, with spacing that won't disturb mobile hero order */}
-            <div className="mt-[-15px] lg:mt-0 mb-[50px] lg:mb-0 flex flex-col">
+            {/* CTA block: bottom aligned on desktop */}
+            <div className="mt-6 lg:mt-auto mb-[50px] lg:mb-0 flex flex-col gap-2">
+              {/* Primary CTA */}
               <Link
                 href="https://www.alphabyte.com/"
                 target="_blank"
@@ -219,9 +225,10 @@ const AboutHero = () => {
                 Visit Alphabyte Ventures <MdKeyboardArrowRight className="text-2xl" />
               </Link>
 
+              {/* Secondary CTA: same style, slightly softer via opacity only */}
               <Link
                 href="/about-anil-mathews/fact-sheet"
-                className="bg-transparent flex items-center gap-2 text-[#111111] opacity-55 hover:opacity-100 transition-opacity h-[40px] uppercase text-sm lg:text-base font-inter font-semibold mt-2"
+                className="bg-transparent flex items-center gap-2 text-[#1A3470] opacity-80 hover:opacity-100 transition-opacity h-[46px] rounded-full uppercase text-sm lg:text-base font-inter font-semibold"
               >
                 View Fact Sheet <MdKeyboardArrowRight className="text-2xl" />
               </Link>
