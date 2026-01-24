@@ -210,7 +210,7 @@ const AboutHero = () => {
             </p>
 
             {/* CTA block: VERY TIGHT GAP, same style for both */}
-            <div className="mt-[-15px] lg:mt-0 mb-[50px] lg:mb-0 flex flex-col gap-[6px]">
+            <div className="mt-2 mb-[50px] lg:mb-0 flex flex-col gap-[2px]">
               <Link
                 href="https://www.alphabyte.com/"
                 target="_blank"
