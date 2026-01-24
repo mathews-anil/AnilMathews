@@ -169,7 +169,7 @@ const Page = () => {
                 </p>
               </div>
               <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-                Led Imere, ya technology platform that could infer the geolocation of a
+                Led Imere, a technology platform that could infer the geolocation of a
                 device without relying on GPS. Oversaw product development and market execution,
                 enabling practical location intelligence across mobile platforms and network operators.
               </p>
