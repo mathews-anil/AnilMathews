@@ -152,7 +152,7 @@ const Page = () => {
                 </p>
               </div>
               <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-                Co-founded and led Netkode Solutions, an enterprise software company focused on
+                Co-founded and led Netkode, an enterprise software company focused on
                 content and media provisioning systems. Built the company from its early stages
                 and scaled the organization to more than 100 employees.
               </p>
@@ -169,7 +169,7 @@ const Page = () => {
                 </p>
               </div>
               <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-                Led Imere Tech, a technology platform that could infer the geolocation of a
+                Led Imere, ya technology platform that could infer the geolocation of a
                 device without relying on GPS. Oversaw product development and market execution,
                 enabling practical location intelligence across mobile platforms and network operators.
               </p>
