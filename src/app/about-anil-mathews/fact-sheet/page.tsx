@@ -38,6 +38,72 @@ const factSheetPageJsonLd = {
     "@type": "Person",
     "@id": "https://www.anilmathews.com/#person",
   },
+
+  // Stronger machine-readable identity + timeline (without schema spam)
+  mainEntity: {
+    "@type": "Person",
+    "@id": "https://www.anilmathews.com/#person",
+    name: "Anil Mathews",
+    jobTitle: "Entrepreneur and Author",
+    hasOccupation: [
+      {
+        "@type": "Occupation",
+        name: "Founder & CEO, Alphabyte",
+        startDate: "2024-01",
+      },
+      {
+        "@type": "Occupation",
+        name: "Founder & CEO, Near Intelligence",
+        startDate: "2012-11",
+        endDate: "2023-10",
+      },
+    ],
+  },
+
+  // Structured career timeline
+  mainEntityOfPage: {
+    "@type": "ItemList",
+    name: "Career Timeline",
+    itemListOrder: "http://schema.org/ItemListOrderAscending",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Netkode Solutions",
+        description:
+          "Co-founded and led Netkode Solutions, an enterprise software company focused on content and media provisioning systems.",
+        startDate: "1999-11",
+        endDate: "2007-12",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Imere Tech",
+        description:
+          "Led Imere Tech, a technology platform that inferred device geolocation without relying on GPS.",
+        startDate: "2008-01",
+        endDate: "2012-10",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: "Near Intelligence",
+        description:
+          "Founded Near Intelligence and led the company through global expansion and a Nasdaq listing at an approximate $1 billion valuation.",
+        startDate: "2012-11",
+        endDate: "2023-10",
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: "Alphabyte",
+        description:
+          "Founded Alphabyte, a venture studio that builds and invests in focused software products.",
+        startDate: "2024-01",
+      },
+    ],
+  },
+
   isPartOf: {
     "@type": "WebSite",
     "@id": "https://www.anilmathews.com/#website",
@@ -115,20 +181,25 @@ const Page = () => {
           </h2>
 
           <ul className="mt-5 space-y-3 font-inter text-base md:text-lg text-[#111111] opacity-70 list-disc pl-5">
-            <li>Founder and former CEO of Near Intelligence, a data intelligence company</li>
             <li>
-              Led Near through expansion across Asia, Australia, Europe, and North America
+              Founder and former CEO of Near Intelligence, a data intelligence
+              company
             </li>
             <li>
-              Guided Near to a Nasdaq listing in 2023 at an approximate $1 billion valuation
+              Led Near through expansion across Asia, Australia, Europe, and
+              North America
             </li>
             <li>
-              Raised $235 million across equity and debt, backed by marquee investors including
-              Sequoia Capital, JP Morgan, and Cisco
+              Guided Near to a Nasdaq listing in 2023 at an approximate $1
+              billion valuation
             </li>
             <li>
-              Founder and CEO of Alphabyte, a venture studio that builds and invests in focused
-              software products
+              Raised $235 million across equity and debt, backed by marquee
+              investors including Sequoia Capital, JP Morgan, and Cisco
+            </li>
+            <li>
+              Founder and CEO of Alphabyte, a venture studio that builds and
+              invests in focused software products
             </li>
             <li>Author of The Start Switch</li>
           </ul>
@@ -152,9 +223,10 @@ const Page = () => {
                 </p>
               </div>
               <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-                Co-founded and led Netkode, an enterprise software company focused on
-                content and media provisioning systems. Built the company from its early stages
-                and scaled the organization to more than 100 employees.
+                Co-founded and led Netkode, an enterprise software
+                company focused on content and media provisioning systems. Built
+                the company from its early stages and scaled the organization to
+                more than 100 employees.
               </p>
             </article>
 
@@ -169,9 +241,10 @@ const Page = () => {
                 </p>
               </div>
               <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-                Led Imere, a technology platform that could infer the geolocation of a
-                device without relying on GPS. Oversaw product development and market execution,
-                enabling practical location intelligence across mobile platforms and network operators.
+                Led Imere, a technology platform that could infer the
+                geolocation of a device without relying on GPS. Oversaw product
+                development and market execution, enabling practical location
+                intelligence across mobile platforms and network operators.
               </p>
             </article>
 
@@ -187,16 +260,19 @@ const Page = () => {
               </div>
 
               <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-                Founded Near Intelligence and led the company from an early data experiment into a
-                global data intelligence platform. Under Mathews’ leadership, Near expanded operations
-                across four continents, completed strategic acquisitions including Teemo (Paris) and UM
-                (California), and raised $235 million across equity and debt from institutional investors
-                including Sequoia Capital, JP Morgan, and Cisco.
+                Founded Near Intelligence and led the company from an early data
+                experiment into a global data intelligence platform. Under
+                Mathews’ leadership, Near expanded operations across four
+                continents, completed strategic acquisitions including Teemo
+                (Paris) and UM (California), and raised $235 million across
+                equity and debt from institutional investors including Sequoia
+                Capital, JP Morgan, and Cisco.
               </p>
 
               <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-                Near Intelligence was listed on Nasdaq in 2023 following a public-market transaction
-                that valued the company at approximately $1 billion.
+                Near Intelligence was listed on Nasdaq in 2023 following a
+                public-market transaction that valued the company at
+                approximately $1 billion.
               </p>
             </article>
 
@@ -211,10 +287,11 @@ const Page = () => {
                 </p>
               </div>
               <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-                Founded and leads Alphabyte, a venture studio that builds and invests in focused software
-                products. Alphabyte works with small, disciplined teams to design systems that deliver clarity,
-                speed, and measurable progress, applying AI where it creates clear operational leverage rather
-                than complexity.
+                Founded and leads Alphabyte, a venture studio that builds and
+                invests in focused software products. Alphabyte works with
+                small, disciplined teams to design systems that deliver clarity,
+                speed, and measurable progress, applying AI where it creates
+                clear operational leverage rather than complexity.
               </p>
             </article>
           </div>
@@ -227,14 +304,17 @@ const Page = () => {
           </h2>
 
           <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-            Anil Mathews is the author of <span className="opacity-90">The Start Switch</span>, a book about
-            momentum and execution. The Start Switch explores how individuals and teams move from intent to action,
-            focusing on starting well, sustaining focus, and continuing to build when most efforts stall.
+            Anil Mathews is the author of{" "}
+            <span className="opacity-90">The Start Switch</span>, a book about
+            momentum and execution. The Start Switch explores how individuals
+            and teams move from intent to action, focusing on starting well,
+            sustaining focus, and continuing to build when most efforts stall.
           </p>
 
           <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-            His writing examines incentives, attention, and the mechanics of progress, shaped by two decades of
-            experience building technology companies.
+            His writing examines incentives, attention, and the mechanics of
+            progress, shaped by two decades of experience building technology
+            companies.
           </p>
         </section>
 
@@ -245,7 +325,8 @@ const Page = () => {
           </h2>
 
           <p className="font-inter text-base md:text-lg text-[#111111] opacity-70 mt-4">
-            Verified interviews, public appearances, and third-party coverage are available at:
+            Verified interviews, public appearances, and third-party coverage
+            are available at:
           </p>
 
           <a
@@ -266,7 +347,8 @@ const Page = () => {
             <li>Dates reflect publicly listed professional timelines</li>
             <li>Descriptions are factual and non-promotional</li>
             <li>
-              This document is intended as a neutral reference for editorial, research, and background use
+              This document is intended as a neutral reference for editorial,
+              research, and background use
             </li>
           </ul>
         </section>
