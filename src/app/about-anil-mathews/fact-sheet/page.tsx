@@ -226,7 +226,7 @@ const Page = () => {
                 Co-founded and led Netkode, an enterprise software
                 company focused on content and media provisioning systems. Built
                 the company from its early stages and scaled the organization to
-                more than 100 employees.
+                more than 100 engineers.
               </p>
             </article>
 
